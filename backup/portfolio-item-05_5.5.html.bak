@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <title>Gridus vCard | Blog Post</title>
+    <title>Qaisar Khan</title>|<title>Qaisar Khan</title>
 
     <meta name="description" content="Gridus vCard HTML Template is the professional responsive personal website template, based on the latest Bootstrap 3">
     <meta name="keywords" content="html5, template, website, responsive, bootstrap">
@@ -163,32 +163,48 @@
                             </div>
                             <div class="row table-row">
                                 <div class="table-cell">Client:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">Client name</a></span></div>
+                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">Beazley Group</a></span></div>
                             </div>
                         </div>
 
 
-                        <div class="dividewhite4"></div>
-                        <h3>Definition</h3>
+			<div class="dividewhite4"></div>
+                        <h3>Triangulaton Analysis Reporting System</h3><small>(Beazley Group)</small>
+                        <br/>
+                        <h3>Project Overview</h3>
                         <br/>
                         <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                            <span style="font-size:38px;">N</span>et loss ratio is the ratio of total losses incurred (paid and reserved) in claims plus adjustment expenses divided by the total premiums earned.[ The losses are added to adjustment expenses
-                            and then divided by total earned premiums. For example, if an insurance company pays $60 in claims for every $100 in collected premiums, then its loss ratio is 60%.
-                            <br/>
-                            <br/>
-                            <h4>Process Overview</h4>
-                            <ol style="color:grey; word-spacing:5px; list-style-type:dsic; font-family:Garamond; font-size:1.3em;">
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
                                 <li>
-                                    Designed and developed “Triangulation” (Net Loss Ratio) Analysis/Reporting System” for the Underwriting team, enabling them to examine existing claims & premium data quickly to strengthen interpretations and improve policy and programs.
+Triangulation or Net loss analysis is an important part of actuarial analysis in any insurance business. Actuarial analysis is an essential task performed by insurance companies to analyze data and estimate the probability of an insurance claim being filed for a given event.
                                 </li>
                                 <br/>
                                 <li>
-                                    The system developed, combines information from quantitative and qualitative analysis, and shows the percent of health plan premiums that were spent on claims costs for individual and small employer health plan markets for insurance companies. The reports
-                                    generated from the system are submitted to Beazley UK on a monthly basisjlk
+This work allows insurance companies to predict with a reasonable degree of accuracy the amount of claims they will pay out, which helps them determine what premiums they must charge to remain profitable. 
                                 </li>
                                 <br/>
                                 <li>
-                                    The underwriter portal is accessed from the Beazley Web site and access only by authenticated users.
+Acceptably accurate predictions require a lot of qualitative and quantitative data and it is extremely tedious and time consuming for underwriters to perform such predictive modeling manually.
+                                </li>
+                                <br/>
+                                <li>
+To make life easier for the analysts, an automated Triangulation/Net Loss analysis and reporting system was developed for underwriting team of Beazley UK, which is a specialist insurer with three decades of experience in providing clients with the highest standards of underwriting and claims service worldwide. 
+                                </li>
+                                <br/>
+                                <li>Beazely is serving customers in 8 countries across Europe and America.
+                                </li>
+                            </ol>
+                            <br/>
+                            <h3>Developed Solution/Project Features</h3>
+                            <br/>
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>
+The Triangulation (Net Loss Ratio) Analysis and reporting system is designed by keeping automation, accuracy and efficiency as key objective. It is designed for the Underwriting team of the company, enabling them to examine existing claims & premium data quickly to strengthen interpretations and improve policy and programs. 
+                                </li>
+                                <br/>
+                                <li>
+The developed system, combines information from quantitative and qualitative analysis, and shows the percent of health plan premiums that were spent on claims costs for individual and small employer health plan markets for insurance companies. 
+                                    <br/>
                                     <br/>
                                     <a href="images/img5_5.5_1.png" class="gallery-item">
                                         <img src="images\img5_5.5_1.png" class="img-responsive" alt="portfolio item">
@@ -196,11 +212,8 @@
                                 </li>
                                 <br/>
                                 <li>
-                                    Underwriters can analyze the triangulation reports per Insurance facility or per individual clients.
-                                </li>
-                                <br/>
-                                <li>
-                                    The list of Binder Facilities is organized per year and clients under each Binder year are grouped and listed out by expanding the Binder Year.
+Underwriters can analyze the triangulation reports per Insurance facility or per individual clients. The list of Binder Facilities is organized per year and clients under each Binder year are grouped and listed out by expanding the Binder Year.   
+                                    <br/>
                                     <br/>
                                     <a href="images/img5_5.5_2.png" class="gallery-item">
                                         <img src="images\img5_5.5_2.png" class="img-responsive" alt="portfolio item">
@@ -208,16 +221,17 @@
                                 </li>
                                 <br/>
                                 <li>
-                                    The client is then expanded further to list the policies under that client and further clicking on the policy ID will generate the pop up window with the Loss Ratio Calculation for the policy.
+The underwriters can also generate “Individual Client Triangulation Reports”, which gives the details of all the clients and the policies attached with each client. The user can click on a policy and a popup windows appears, showing the Loss Ratio calculation for the policy.
+                                    <br/>
                                     <br/>
                                     <a href="images/img5_5.5_3.png" class="gallery-item">
                                         <img src="images\img5_5.5_3.png" class="img-responsive" alt="portfolio item">
                                     </a>
                                 </li>
                                 <br/>
-                                <br/>
                                 <li>
-                                    Underwriters can generate the Combined Facility Year Net Loss Ratio report, by selecting binder year and submitting the request
+The user can also select multiple clients and generate Loss ratio report for multiple clients, both combined and Individual clients.
+                                    <br/>
                                     <br/>
                                     <a href="images/img5_5.5_4.png" class="gallery-item">
                                         <img src="images\img5_5.5_4.png" class="img-responsive" alt="portfolio item">
@@ -231,72 +245,14 @@
                                         <img src="images\img5_5.5_6.png" class="img-responsive" alt="portfolio item">
                                     </a>
                                 </li>
-                                <br/>
-                                <br/>
-                                <li>
-                                    The underwriters can also generate “Individual Client Triangulation Reports”, which gives the details of all the clients and the policies attached with each client.
-                                    <br/>
-                                    <a href="images/img5_5.5_7.png" class="gallery-item">
-                                        <img src="images\img5_5.5_7.png" class="img-responsive" alt="portfolio item">
-                                    </a>
-                                </li>
-                                <br/>
-                                <br/>
-                                <li>
-                                    The user can click on a policy and a popup windows appears, showing the Loss Ratio calculation for the policy
-                                    <br/>
-                                    <a href="images/img5_5.5_8.png" class="gallery-item">
-                                        <img src="images\img5_5.5_8.png" class="img-responsive" alt="portfolio item">
-                                    </a>
-                                </li>
-                                <br/>
-                                <br/>
-                                <li>
-                                    To generate triangulation report for the policy, click on the link “Triangulation Report”, which will generate policy level Net Loss Ratio report
-                                    <br/>
-                                    <a href="images/img5_5.5_9.png" class="gallery-item">
-                                        <img src="images\img5_5.5_9.png" class="img-responsive" alt="portfolio item">
-                                    </a>
-                                </li>
-                                <br/>
-                                <br/>
-                                <li>
-                                    The user can select the individual client and get the loss ratio report with policies appearing as triangle
-                                    <br/>
-                                    <a href="images/img5_5.5_10.png" class="gallery-item">
-                                        <img src="images\img5_5.5_10.png" class="img-responsive" alt="portfolio item">
-                                    </a>
-                                </li>
-                                <br/>
-                                <br/>
-                                <li>
-                                    The user can select multiple clients and generate Loss ratio report for multiple clients, both combined and Individual clients
-                                    <br/>
-                                    <a href="images/img5_5.5_11.png" class="gallery-item">
-                                        <img src="images\img5_5.5_11.png" class="img-responsive" alt="portfolio item">
-                                    </a>
-                                    <br/>
-                                    <a href="images/img5_5.5_12.png" class="gallery-item">
-                                        <img src="images\img5_5.5_12.png" class="img-responsive" alt="portfolio item">
-                                    </a>
-                                </li>
                             </ol>
+                            <br/>
+                            <h4>Programming Languages and Tools</h4>
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>Advanced Object Oriented Perl</li>
+                                <li>Linux</li>
+                                <li>Shell Scripting</li>
                         </p>
-                        <div class="dividewhite4"></div>
-                        <hr>
-                        <br/>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <h3 class="font-accident-two-light">Key System Functionality</h3>
-                                <div class="dividewhite2"></div>
-                                <ol class="portfolio-item-details font-accident-two-normal" style=" list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond;">
-                                    <li style="font-size:18px;">The system provides all kinds of insurance claims</li>
-                                    <li style="font-size:18px;">The system provides the flexible connectivity essential to effective claims management.</li>
-                                    <li style="font-size:18px;">It reduces time spent doing routine administrative tasks.</li>
-                                    <br>
-                                </ol>
-                                <div class="dividewhite4"></div>
                             </div>
                         </div>
                         <br/>
@@ -308,9 +264,9 @@
                                 <div class="dividewhite2"></div>
                                 <div class="share">
                                     <ul class="list-inline social">
-                                        <li><a target="_blank" href="#" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a target="_blank" href="#" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a target="_blank" href="#" class="rst-icon-google"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a target="_blank" href="https://linkedin.com/" class="rst-icon-google"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a target="_blank" href="https://www.facebook.com/" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -320,53 +276,12 @@
                     </div>
                 </div>
 
-                <div class="dividewhite8"></div>
-
                 <!-- Portfolio Block -->
 
             </section>
         </div>
 
     </div>
-    <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">
-        <div class="container-fluid nopadding">
-            <div class="row">
-
-                <div class="col-sm-3 cv-link">
-                    <h5 class="font-accident-two-bold uppercase">Download cv</h5>
-                    <div class="dividewhite1"></div>
-                    <a href="#"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>English</a>
-                    <a href="#"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>German</a>
-                    <a href="#"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>Spanish</a>
-                    <p class="inline-block">
-                        The CV is in .pdf format. Use the Adobe Reader to open it.
-                    </p>
-                    <div class="divider-dynamic"></div>
-                </div>
-
-                <div class="col-sm-3">
-                    <h5 class="font-accident-two-bold uppercase">Follow me</h5>
-                    <div class="follow">
-                        <ul class="list-inline social">
-                            <li><a target="_blank" href="#" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="#" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="#" class="rst-icon-pinterest"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a target="_blank" href="#" class="rst-icon-instagram"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="#" class="rst-icon-youtube"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="divider-dynamic"></div>
-                </div>
-            </div>
-            <div class="dividewhite1"></div>
-            <div class="row">
-                <div class="col-md-12 copyrights">
-                    <p>© 2016 Samuel Anderson.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
 
     <!-- Back to Top -->
     <div id="back-top"></div>
