@@ -1,0 +1,24 @@
+  508  ssh -T git@github.com
+  509  cd ~/Documents/
+  510  l
+  511  cd GitHub
+  512  l
+  513  cd qjkconsultants.github.io/
+  514  l
+  515  git status
+  516  git add .
+  517  git push origin master
+  518  git status
+  519  history
+  520  history | grep "git"
+  521  cd ../
+  522  l
+  523  git qjkconsultants.github.io/
+  524  git remote set-url origin git@github.com:qjkconsultants/qjkconsultants.github.io.git
+  525  cd qjkconsultants.github.io/
+  526  git remote set-url origin git@github.com:qjkconsultants/qjkconsultants.github.io.git
+  527  git push origin master
+  528  cd
+  529  cd -
+  530  l
+  531  history
