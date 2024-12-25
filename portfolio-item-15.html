@@ -149,7 +149,17 @@
                         <h3>MAS Reporting Software Solution</h3>
                         <br/>
                         <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                            MAS Reporting plays a pivotal role in the finance world, providing essential insights and ensuring compliance with regulatory requirements. The accuracy and efficiency of MAS reports are crucial for maintaining a competitive position and profitability.
+                            MAS Reporting, short for Monetary Authority of Singapore Reporting, is a crucial suite of reports designed to fulfill regulatory requirements imposed by the SG MAS (Monetary Authority of Singapore). These reports, encompassing MAS610, MAS649, MAS755, QIE, and more, play a pivotal role in ensuring compliance within the financial sector.
+
+                            The intricate process begins with MAS querying two distinct databases—MICS (IBM DB2) for unsettled transactions and EXACT (SQL Server) for turnover data. This comprehensive data is then enriched through mapping into CSV files, aligning with the specific fields outlined in the STBINPUT template.
+                            
+                            To capture additional customer-centric details, the system retrieves pertinent information from the Reference Data Editor (RDE), a Java-based PostgreSQL application. This step enhances the richness and accuracy of the data, contributing to the integrity of the final reports.
+                            
+                            Upon the meticulous completion of this data refinement journey, the system generates finalized STBINPUT CSVs. These files serve as the foundation for the subsequent phase facilitated by the Agile Reporter. Agile Reporter acts as the visualizer, seamlessly interpreting the reports and presenting them in a comprehensible format.
+                                                        
+                        </p>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                            MAS Reporting plays a pivotal role in the finance world, providing essential insights and ensuring compliance with regulatory requirements. The accuracy and efficiency of MAS reports are crucial for maintaining a competitive position and profitability. MAS Reporting, specifically in the context of MAS610/MAS649 notices, is a critical mandate encompassing all banks in Singapore.
                         </p>
                         <br/>
                         <h3>Current Challenges</h3>
