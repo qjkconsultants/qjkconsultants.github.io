@@ -150,6 +150,31 @@
                             Designed and develop new framework for the development of Regulatory Reporting projects, using component-based architecture, adhering strictly to the object-oriented design principles. </b>
                             Aim is to allow developers focus on the business requirements and not utilize time on low level technical complexities, such as reading data from multiple sources, pre-processing/post processing of the data, generating multiple reports as outputs in dynamically created directories.</b>
                         </p>
+                        <h3>Regulatory Reporting Framework Architecture Overview</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1em;">
+                                <li>Regulatory Reporting Framework is designed to facilitate the seamless development of Regulatory Reporting projects.</li>
+                                <li>The overarching goal is to enable developers to concentrate on business requirements without being encumbered by low-level technical complexities.</li>
+                                <li>It employs a component-based architecture, ensuring modularity, reusability, and maintainability.</li>
+                                <li>Components, including data access, pre-processing and conversion, aggregation and calculations, data mapping, post-processing, and integration with Agile Reporter, contribute to an efficient, flexible, and accurate development process.</li>
+                            </ol>
+                            <h4>Advantages:</h4>
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1em;">
+                                <li><b>Efficiency: </b>Developers focus on business logic, reducing development time and effort.</li>
+                                <li><b>Flexibility: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
+                                <li><b>Modularity: </b>Components promote code reuse and maintainability.</li>
+                                <li><b>Data Accuracy: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                            </ol>
+                            The Regulatory Reporting Framework establishes a foundation for efficient, flexible, and accurate development of Regulatory Reporting projects. Its component-based architecture empowers developers to concentrate on business requirements, fostering a streamlined and effective development process. The seamless integration with Agile Reporter further enhances the overall capabilities of the solution.                        
+                            <h4>Component Characteristics:</h4>
+                            <ol style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1em;">
+                                <li><b>Object-Oriented Classes: </b>Developers focus on business logic, reducing development time and effort.</li>
+                                <li><b>Data Processing and Conversion: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
+                                <li><b>Netting, Aggregation, and Calculations: </b>Components promote code reuse and maintainability.</li>
+                                <li><b>Data Mapping: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                                <li><b>Post-Processing: </b>Post-processing involves applying additional rules to the mapped data to meet specific reporting requirements. This step enhances the adaptability of the framework to varied regulatory needs.</li>
+                            </ol>
+                        </p>
                         <h3>Component Based Architecture</h3>
                         <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
                             The framework is developed using component-based architecture and developer could simply create a component for their business entity. 
@@ -165,28 +190,20 @@
                                     </ol>
                                 </li>
                             </ol>
-
                         </p>
-                        <h3>Regulatory Reporting Framework Architecture Overview</h3>
+                        <h3>Business/Technical Analysis</h3>
                         <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
                             <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                                <li>Regulatory Reporting Framework is designed to facilitate the seamless development of Regulatory Reporting projects.</li>
-                                <li>The overarching goal is to enable developers to concentrate on business requirements without being encumbered by low-level technical complexities.</li>
-                                <li>It employs a component-based architecture, ensuring modularity, reusability, and maintainability.</li>
-                                <li>Components, including data access, pre-processing and conversion, aggregation and calculations, data mapping, post-processing, and integration with Agile Reporter, contribute to an efficient, flexible, and accurate development process.</li>
-                            </ol>
-                            <h4>Advantages:</h4>
-                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                                <li><b>Efficiency: </b>Developers focus on business logic, reducing development time and effort.</li>
-                                <li><b>Flexibility: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
-                                <li><b>Modularity: </b>Components promote code reuse and maintainability.</li>
-                                <li><b>Data Accuracy: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                                <li>Business & technical analysis was performed, ensuring that the developed solutions not only meet the specified requirements but also contribute to the broader success and competitiveness of the organization. </li>
+                                <li>Collaborate with stakeholders to define data requirements, analysis & data manipulation using python libraries (NumPy, Pandas), develop pipelines to extract, transform, and load information, cleaned and prepare data for business analysis, scripts to automate data analysis tasks, develop data-driven solutions to business problems.</li>
+                                <li>Developed Reconciliation Reports for the business components, so that business analysts could understand the rules implemented and supervise the transformation of the data to generate final reports. </li>
+                                <li>Implemented test driven development approach, creating unit tests for the functionality, integration tests for the output data, and code is deployed to multiple environments using Jenkins & CI/CD pipelines, configured the image to run in container via open shift. </li>
                             </ol>
                         </p>
                         <h3>Product Develoment</h3>
                         <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
                             Developed Reporting System for multiple regulatory authorities (Singapore/Hongkong), which:
-                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Gar</li>amond; font-size:1.3em;">
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Gar</li>amond; font-size:1em;">
                                 <li>Retrieves the trading related transactions from multiple data sources. </li>
                                 <li>Separate components utilize the data and perform calculations and manipulations.</li>
                                 <li>Ledger balances are netted and mapped with GLC codes to segregate balances into different buckets of assets, liabilities, equity, etc. Profit & loss ratios are calculated. </li>
@@ -198,27 +215,6 @@
                                 <li>Developed an application to initiate the open shift job, creating a pod, running the business logic inside the container, capturing the logs of the running pods and update the status of jobs in the schedular up on completion. The processing logs are configured and made available for the users to view via SPLUNK.</li>
                                 <li>Automate the deployment process of applications developed (using Jenkins & CI/CD pipeline), configured the applications to run via container and OpenShift.</li>
                         </p>
-                        <h3>Business/Technical Analysis</h3>
-                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
-                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                                <li>Business & technical analysis was performed, ensuring that the developed solutions not only meet the specified requirements but also contribute to the broader success and competitiveness of the organization. </li>
-                                <li>Collaborate with stakeholders to define data requirements, analysis & data manipulation using python libraries (NumPy, Pandas), develop pipelines to extract, transform, and load information, cleaned and prepare data for business analysis, scripts to automate data analysis tasks, develop data-driven solutions to business problems.</li>
-                                <li>Developed Reconciliation Reports for the business components, so that business analysts could understand the rules implemented and supervise the transformation of the data to generate final reports. </li>
-                                <li>Implemented test driven development approach, creating unit tests for the functionality, integration tests for the output data, and code is deployed to multiple environments using Jenkins & CI/CD pipelines, configured the image to run in container via open shift. </li>
-                            </ol>
-                        </p>
-                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
-                            The Regulatory Reporting Framework establishes a foundation for efficient, flexible, and accurate development of Regulatory Reporting projects. Its component-based architecture empowers developers to concentrate on business requirements, fostering a streamlined and effective development process. The seamless integration with Agile Reporter further enhances the overall capabilities of the solution.                        
-                            <h4>Component Characteristics:</h4>
-                            <ol style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                                <li><b>Object-Oriented Classes: </b>Developers focus on business logic, reducing development time and effort.</li>
-                                <li><b>Data Processing and Conversion: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
-                                <li><b>Netting, Aggregation, and Calculations: </b>Components promote code reuse and maintainability.</li>
-                                <li><b>Data Mapping: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
-                                <li><b>Post-Processing: </b>Post-processing involves applying additional rules to the mapped data to meet specific reporting requirements. This step enhances the adaptability of the framework to varied regulatory needs.</li>
-                            </ol>
-                        </p>
-                        <br/>
                     </div>
                     <div class="dividewhite8"></div>
                     <div class="col-md-12 col-sm-6 col-xs-12">
