@@ -115,7 +115,7 @@
         <div id="portfolio-item-page" class="inner-content">
             <section class="inner-section">
                 <div class="post-header">
-                    <h2>DTCC Re-Write – XML Solution</h2>
+                    <h2>DTCC Re-Write - XML Solution</h2>
                     <div class="dividewhite1"></div>
                 </div>
                 <div class="row">
@@ -139,58 +139,54 @@
 
                         <h3>Project Overview</h3>
                         <p>
-                            Designed and implemented an **advanced ETL and regulatory reporting solution** for DTCC, handling massive financial data streams, automating XML report generation, and ensuring **100% reconciliation accuracy**. This system modernized the workflow for financial derivatives reporting, regulatory compliance, and cross-platform data integration.
+                            The Depository Trust and Clearing Corporation (DTCC) provides centralized clearing and settlement services for the financial markets. ABN AMRO Clearing required a **comprehensive solution to handle regulatory reporting** in ISO 20022 XML format, accommodating multiple jurisdictions including APAC (MAS/HKMA). The project focused on **automating data extraction, transformation, and XML report generation** from multiple financial databases while ensuring regulatory compliance and data reconciliation.
                         </p>
 
                         <h3>Technical Implementation</h3>
                         <ul>
-                            <li>Developed an **object-oriented Python ETL framework** with Pandas/Numpy for high-performance data processing.</li>
-                            <li>Integrated multiple relational and non-relational databases: **SQL Server, PostgreSQL, IBM DB2**, supporting complex data transformations and validations.</li>
-                            <li>Automated **XML report generation** in ISO 20022 format for DTCC submission, supporting CPMI-IOSCO critical data elements (CDE) and unique product identifiers (UPI).</li>
-                            <li>Implemented **data extraction, transformation, and loading** from diverse sources, including CSV, MICS, and XML feeds, ensuring data consistency and quality.</li>
-                            <li>Managed scheduling, orchestration, and logging for ETL workflows to ensure **timely regulatory reporting** and full auditability.</li>
-                            <li>Created detailed **technical and user documentation** for developers and business analysts to maintain, extend, and troubleshoot the system.</li>
+                            <li>Designed and implemented an **advanced ETL system** in Python for consolidating and transforming data from multiple sources including SQL Server, PostgreSQL, IBM DB2, MICS, CSV, and XML files.</li>
+                            <li>Developed **object-oriented Python modules** for each dimension (Customer, Store, Movie, Date), enabling modular ETL processing and easier maintainability.</li>
+                            <li>Implemented **automated XML generation** to comply with ISO 20022 reporting standards, including CPMIIOSCO critical data elements (CDE) such as unique product identifiers (UPI).</li>
+                            <li>Performed **full reconciliation and validation** of datasets to ensure 100% accuracy before report submission.</li>
+                            <li>Integrated the ETL process with internal and external systems via **Agile Reporter** and automated secure submission to DTCC.</li>
+                            <li>Built **post-processing modules** for additional calculations, aggregations, and data mapping required for regulatory compliance.</li>
+                            <li>Ensured **high scalability and performance**, enabling processing of large volumes of transactional data efficiently.</li>
                         </ul>
 
                         <h3>Business & Technical Analysis</h3>
                         <ul>
-                            <li>Performed thorough analysis to align business requirements with technical design, ensuring regulatory compliance and operational efficiency.</li>
-                            <li>Developed technical specifications for seamless integration with internal and external systems.</li>
-                            <li>Leveraged quantitative analysis to identify optimization opportunities, cost reductions, and process improvements.</li>
-                            <li>Ensured collaboration across stakeholders for smooth deployment and validation of ETL processes.</li>
+                            <li>Analyzed business requirements to map regulatory reporting fields and identify transformation logic for each source system.</li>
+                            <li>Performed technical analysis to design a **component-based, reusable architecture**, reducing development time for future regulatory projects.</li>
+                            <li>Created technical specifications for seamless integration with internal applications, external databases, and reporting frameworks.</li>
+                            <li>Leveraged **quantitative analysis** to identify data inconsistencies, validate outputs, and implement automated corrections.</li>
                         </ul>
 
-                        <h3>Regulatory Reporting Framework Architecture</h3>
+                        <h3>Regulatory Reporting Framework</h3>
                         <ul>
-                            <li>Designed a **component-based architecture** for modularity, reusability, and maintainability.</li>
-                            <li>Components include: data access, pre-processing, conversion, aggregation, calculations, mapping, post-processing, and integration with Agile Reporter.</li>
-                            <li>Ensured framework allows developers to focus on **business logic** rather than low-level technical implementation.</li>
-                        </ul>
-
-                        <h4>Framework Advantages</h4>
-                        <ul>
-                            <li><b>Efficiency:</b> Developers can focus on business requirements, reducing time-to-market.</li>
-                            <li><b>Flexibility:</b> Supports multiple data sources and diverse regulatory environments.</li>
-                            <li><b>Modularity:</b> Component reuse increases maintainability and reduces errors.</li>
-                            <li><b>Data Accuracy:</b> Systematic pre-processing and mapping guarantee precise regulatory reports.</li>
-                        </ul>
-
-                        <h4>Component Characteristics</h4>
-                        <ul>
-                            <li><b>Object-Oriented Classes:</b> Encapsulate ETL logic for clarity and reusability.</li>
-                            <li><b>Data Processing & Conversion:</b> Transform multiple source formats into standard XML for submission.</li>
-                            <li><b>Netting, Aggregation & Calculations:</b> Handle large-scale financial data accurately and efficiently.</li>
-                            <li><b>Data Mapping:</b> Map source data to reporting standards with validation rules.</li>
-                            <li><b>Post-Processing:</b> Apply additional rules to meet regulatory requirements before submission.</li>
+                            <li>Developed a **component-based framework** with modular classes handling data access, pre-processing, aggregation, mapping, post-processing, and integration with Agile Reporter.</li>
+                            <li>Ensured developers could focus on business logic while the framework handled low-level technical complexities.</li>
+                            <li>Implemented validation layers and mapping logic for accurate regulatory reporting across multiple jurisdictions.</li>
+                            <li>Post-processing modules allowed for applying additional rules to meet specific reporting requirements, enhancing framework adaptability.</li>
                         </ul>
 
                         <h3>Key Achievements</h3>
                         <ul>
-                            <li>Delivered a robust, **fully automated ETL system** for DTCC XML reporting.</li>
-                            <li>Ensured **regulatory compliance** across multiple jurisdictions (APAC, MAS, HKMA) with ISO 20022 standards.</li>
-                            <li>Created **scalable, maintainable, and modular architecture** suitable for continuous updates and regulatory changes.</li>
-                            <li>Enabled **end-to-end reconciliation and validation**, reducing manual errors and audit risks.</li>
-                            <li>Documented step-by-step migration and usage guides for developers and business users.</li>
+                            <li>Successfully automated ISO 20022 XML report generation for MAS/HKMA and other APAC regulators.</li>
+                            <li>Achieved **100% data reconciliation**, eliminating manual errors and reducing reporting cycle time.</li>
+                            <li>Delivered a **scalable, modular, and maintainable ETL framework** that can be extended for future regulatory changes.</li>
+                            <li>Enhanced team productivity by providing a clear technical user guide and modular framework for developers.</li>
+                        </ul>
+
+                        <h3>Technical Stack Summary</h3>
+                        <ul>
+                            <li>Languages: Python (Object-Oriented), SQL</li>
+                            <li>Databases: SQL Server, PostgreSQL, IBM DB2</li>
+                            <li>Data Sources & Formats: CSV, XML, MICS, flat files</li>
+                            <li>ETL & Data Processing: Python, Pandas, Numpy, custom ETL modules</li>
+                            <li>Reporting & Submission: ISO 20022 XML, Agile Reporter integration</li>
+                            <li>Architecture & Design: Component-based modular framework, reusable classes</li>
+                            <li>Version Control & Collaboration: Git/GitHub, Agile methodology</li>
+                            <li>Validation & Testing: Automated reconciliation scripts, unit tests, QA processes</li>
                         </ul>
 
                     </div>
@@ -198,6 +194,7 @@
             </section>
         </div>
     </div>
+
 
 
     <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">
