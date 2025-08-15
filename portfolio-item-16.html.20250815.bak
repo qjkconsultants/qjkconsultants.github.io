@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <title>Qaisar Khan</title>
+    <title>Qaisar Khan</title>|<title>Qaisar Khan</title>
 
     <meta name="description" content="Gridus vCard HTML Template is the professional responsive personal website template, based on the latest Bootstrap 3">
     <meta name="keywords" content="html5, template, website, responsive, bootstrap">
@@ -33,6 +33,9 @@
     <link href="assets/custom/2.2.0/css/layouts/samuel.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
     <link href="assets/custom/2.2.0/css/colors/default.css" id="color-styles" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
 
+    <style>
+
+    </style>
 </head>
 
 <body id="samuel" class="boxed">
@@ -52,7 +55,7 @@
                     <!-- Name-Position -->
                     <div class="row nopadding name">
                         <div class="col-md-10 name-title">
-                            <h1 class="font-accident-two-extralight">Qaisar Khan</h1>
+                            <h1 class="font-accident-two-extralight">Qaisar khan</h1>
                         </div>
                         <div class="col-md-2 nopadding name-pdf">
                             <a href="#" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV.pdf"></i></a>
@@ -61,18 +64,19 @@
                     <div class="row nopadding position">
                         <div class="col-md-10 position-title">
 
-                            <section class="cd-intro">
-                                <h2 class="cd-headline clip is-full-width font-accident-two-light">
-                                    <span></span>
-                                    <span class="cd-words-wrapper">
-                                        <b class="is-visible">Solutions Architect</b>
-                                        <b>Web Developer</b>
-                                        <b>System Programmer</b>
-                                        <b>Team Leader</b>
-                                        <b>Business Analyst</b>
-                                    </span>
-                                </h2>
-                            </section>
+                        <section class="cd-intro">
+                        <h2 class="cd-headline clip is-full-width font-accident-two-light">
+                                <span></span>
+                                <span class="cd-words-wrapper">
+                                <b class="is-visible">Solutions Architect</b>
+                                <b>Web Developer</b>
+                                <b>System Programmer</b>
+                                <b>Team Leader</b>
+                                <b>Business Analyst</b>
+                                </span>
+                         </h2>
+                         </section>
+
 
                         </div>
                         <div class="col-md-2 nopadding pdf">
@@ -118,22 +122,20 @@
             <section class="inner-section">
 
                 <div class="post-header" data-animation-origin="right" data-animation-duration="400" data-animation-delay="100" data-animation-distance="50px">
-                    <h2 class="font-accident-two-normal">DTCC Re-Write - ETL & XML Solution</h2>
+                    <h2 class="font-accident-two-normal">DTCC Re-Write - XML Solution</h2>
 
                     <div class="dividewhite1"></div>
                 </div>
                 <div class="dividewhite4"></div>
-
                 <div class="row">
                     <div id="portfolio-overview" class="col-md-12" data-animation-origin="top" data-animation-duration="400" data-animation-delay="600" data-animation-distance="50px">
 
                         <div class="dividewhite2"></div>
-
-                        <!-- Updated Post Content -->
+                        <!-- Post Content -->
                         <div class="portfolio-item-details table">
                             <div class="row table-row">
                                 <div class="table-cell">Last Updated On:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">August 15th, 2025</a></span></div>
+                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">January 1st, 2024</a></span></div>
                             </div>
                             <div class="row table-row">
                                 <div class="table-cell">Author:</div>
@@ -144,70 +146,80 @@
                                 <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">ABN AMRO Clearing</a></span></div>
                             </div>
                         </div>
-
-                        <h3>Project Overview</h3>
-                        <p class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            This project involved the **complete redesign and automation of the regulatory reporting pipeline** for a global financial institution. 
-                            The objective was to create a highly reliable and scalable **ETL and data engineering system** that extracts, transforms, validates, and generates regulatory reports in ISO 20022 XML format.
-                            The system integrates with multiple data sources, including **PostgreSQL, SQL Server, legacy MICS systems, and CSV/flat files**, providing a robust and auditable pipeline for regulatory submissions.
+                        <h3>What is DTCC</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                            The Depository Trust and Clearing Corporation (DTCC) is an American financial services company founded in 1999 that provides clearing and settlement services for the financial markets. When the DTCC was established in 1999, it combined the functions of the Depository Trust Company (DTC) and the National Securities Clearing Corporation (NSCC).
+                            The NSCC is currently a subsidiary of the DTCC.
                         </p>
+                        <h3>How the DTCC works</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                            The DTCC processes trillions of dollars of securities on a daily basis. As the centralized clearinghouse for various exchanges and equity platforms, the DTCC settles transactions between buyers and sellers of securities and plays a critical role in automating, centralizing, standardizing, and streamlining the world's financial markets. </b>
+                            
+                            For example, when an investor places an order through their broker—and the trade is made between that broker and another broker or similar financial professional—information about that trade is sent to the NSCC (or an equivalent clearinghouse) for clearinghouse services.</b>
 
-                        <h3>Technical Challenges</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Existing reporting systems were heavily manual and error-prone, lacking automation and traceability.</li>
-                            <li>Data was dispersed across heterogeneous sources including relational databases, legacy MICS systems, and flat files.</li>
-                            <li>Compliance required adherence to **ISO 20022 XML standards**, CPMI-IOSCO Critical Data Elements (CDEs), and regional reporting regulations (MAS, HKMA).</li>
-                            <li>Ensuring **full data reconciliation and validation** for accurate regulatory reporting.</li>
-                        </ul>
+                            After the NSCC has processed and recorded the trade using continuous net settlement (CNS), they provide a report to the brokers and financial professionals involved. This report includes their net securities positions after the trade and the money that is due to be settled between the two parties.</b>
 
-                        <h3>Technical Solution & ETL Architecture</h3>
-                        <p class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            The solution was developed as a **modular ETL and reporting framework** using **Python (Object-Oriented Programming)**, with high-performance data processing using **Pandas and Numpy**. 
-                            The architecture is designed for **scalability, maintainability, and auditability**. Key components include:
+                            At this point, the NSCC provides settlement instructions to the Depository Trust Company (DTC), a securities depository. The DTC transfers the ownership of the securities from the selling broker's account to the account of the broker who made the purchase. The DTC is also in charge of transferring funds from the buying broker's account to the account of the broker who made the sale. The broker is then responsible for making the appropriate adjustments to the client's account. This entire process typically happens the same day the transaction occurs. The process for institutional investors is similar to the process for retail investors.
+
                         </p>
+                        <h3>Current Challenges</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                            Global trade reporting will undergo a major shift as the world's most significant derivatives regulations will be reviewed in a bid to improve data quality and harmonize the standards of data, additionally, new and updated fields will be added, such as CPMIIOSCO's critical data elements (CDE), which includes unique product identifiers (UPI) and implementation of the ISO 20022 XML standard, among numerous other changes. 
 
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li><b>Data Extraction:</b> Connectors to PostgreSQL, SQL Server, MICS, and CSV/flat files. Includes incremental extraction, change-data capture, and automated scheduling.</li>
-                            <li><b>Data Pre-Processing:</b> Cleansing, normalization, type validation, and business-rule checks applied to ensure consistent and high-quality datasets.</li>
-                            <li><b>Transformation & Mapping:</b> Conversion to ISO 20022 XML format, mapping to Critical Data Elements (CDEs), and handling multi-regional reporting requirements.</li>
-                            <li><b>Validation & Reconciliation:</b> Automated cross-checks between source and output, including row-level and aggregate validations, ensuring **100% accuracy**.</li>
-                            <li><b>Post-Processing & Submission:</b> Secure XML generation, encryption, and automated submission to DTCC, with acknowledgement handling and exception reporting.</li>
-                            <li><b>Audit & Logging:</b> Comprehensive logging for each ETL step, full traceability for compliance audits, and error handling with retry mechanisms.</li>
-                            <li><b>Modular Design:</b> Object-oriented, component-based architecture enabling code reuse, easy maintenance, and future expansion.</li>
-                        </ul>
+                            <h4>Major Regulatory Changes in APAC</h4>
+                            
+                            Submit all five categories of reportable assets (equity, commodity, foreign exchange, and credit), valuation and margin disclosures in ISO XML 20022 format.
 
-                        <h3>Key Technologies & Tools</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Programming: Python (OOP, Pandas, Numpy, lxml, XML libraries)</li>
-                            <li>Databases: PostgreSQL, SQL Server, IBM DB2, MICS</li>
-                            <li>Data Sources: CSV, flat files, and legacy systems</li>
-                            <li>ETL Framework: Custom modular pipelines, scheduling, logging, and error handling</li>
-                            <li>Data Validation: Reconciliation engine, cross-checks, and exception reporting</li>
-                            <li>Regulatory XML Generation: ISO 20022 format, CPMI-IOSCO CDE compliance</li>
-                            <li>Submission & Security: Secure FTP/SCP, encrypted XML, automated acknowledgement tracking</li>
-                            <li>Version Control & CI/CD: Git/GitHub for deployment and pipeline management</li>
-                        </ul>
+                            <h4>MAS / HKMA Rewrite </h4>
+                            MAS/HKMA reportable data must be submitted in ISO XML 20022 format.
 
-                        <h3>Business and Technical Impact</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Achieved **fully automated ETL workflow** for regulatory reporting, replacing error-prone manual processes.</li>
-                            <li>Ensured **100% reconciliation and compliance** with global ISO 20022 standards.</li>
-                            <li>Reduced operational time for report generation by **70%**, increasing productivity.</li>
-                            <li>Enabled scalable, modular, and maintainable architecture ready for future regulatory changes.</li>
-                            <li>Enhanced traceability and auditability, supporting internal and external compliance audits.</li>
-                        </ul>
+                        </p>
+                        <h3>Product Development</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            To address these challenges, an advanced application has been developed. This software automates the entire process, guaranteeing 100% reconciliation and eliminating errors introduced by manual interventions. The solution is crafted using Object-Oriented Python, Pandas/Numpy for efficient data handling, and seamlessly integrates with various databases, including SQL Server, PostgreSQL, and IBM DB2.</b>
+                            Data extracted from multiple sources is processed via in-house built ETL solution to generate XML reports which are then submitted via secure connection to DTCC and acknowledgement received.
+                        </p>
+                        <h3>Business/Technical Analysis</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>Business & technical analysis was performed, ensuring that the developed solutions not only meet the specified requirements but also contribute to the broader success and competitiveness of the organization. </li>
+                                <li>Its focus on collaboration, data-driven decision-making, and strategic alignment makes it an integral part of the overall system. </li>
+                                <li>Developed technical specifications that facilitate seamless integration with internal and external systems</li>
+                                <li>Leverages quantitative data analysis to identify opportunities for business improvements and cost reductions</li>
+                            </ol>
+                        </p>
+                       <br/> 
+                        <h3>Regulatory Reporting Framework Architecture Overview</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>Regulatory Reporting Framework is designed to facilitate the seamless development of Regulatory Reporting projects.</li>
+                                <li>The overarching goal is to enable developers to concentrate on business requirements without being encumbered by low-level technical complexities.</li>
+                                <li>It employs a component-based architecture, ensuring modularity, reusability, and maintainability.</li>
+                                <li>Components, including data access, pre-processing and conversion, aggregation and calculations, data mapping, post-processing, and integration with Agile Reporter, contribute to an efficient, flexible, and accurate development process.</li>
+                            </ol>
+                            <h4>Advantages:</h4>
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li><b>Efficiency: </b>Developers focus on business logic, reducing development time and effort.</li>
+                                <li><b>Flexibility: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
+                                <li><b>Modularity: </b>Components promote code reuse and maintainability.</li>
+                                <li><b>Data Accuracy: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                            </ol>
+                        </p>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            The Regulatory Reporting Framework establishes a foundation for efficient, flexible, and accurate development of Regulatory Reporting projects. Its component-based architecture empowers developers to concentrate on business requirements, fostering a streamlined and effective development process. The seamless integration with Agile Reporter further enhances the overall capabilities of the solution.                        
+                            <h4>Component Characteristics:</h4>
+                            <ol style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li><b>Object-Oriented Classes: </b>Developers focus on business logic, reducing development time and effort.</li>
+                                <li><b>Data Processing and Conversion: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
+                                <li><b>Netting, Aggregation, and Calculations: </b>Components promote code reuse and maintainability.</li>
+                                <li><b>Data Mapping: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                                <li><b>Post-Processing: </b>Post-processing involves applying additional rules to the mapped data to meet specific reporting requirements. This step enhances the adaptability of the framework to varied regulatory needs.</li>
+                            </ol>
+                        </p>
+                        <br/>
 
-                        <h3>Optional Enhancements / Future Scope</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Integration with cloud data lakes (AWS, Azure) for improved scalability and disaster recovery.</li>
-                            <li>Real-time ETL pipelines for near-instantaneous regulatory reporting.</li>
-                            <li>Advanced dashboards and analytics for monitoring pipeline health, data quality, and compliance.</li>
-                        </ul>
-
-                    </div>
-                    <!-- /Updated Post Content -->
-
-                </div>
+                    </div
+                <!-- /Post Content -->
             </section>
         </div>
 
