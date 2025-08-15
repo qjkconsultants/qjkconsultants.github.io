@@ -1,265 +1,208 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<!--[if IE 9]>
-<html class="ie9" lang="en">    <![endif]-->
-<!--[if IE 8]>
-<html class="ie8" lang="en">    <![endif]-->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <title>Qaisar Khan</title>
+    <title>Qaisar Khan | DTCC Re-Write - XML Solution</title>
 
-    <meta name="description" content="Gridus vCard HTML Template is the professional responsive personal website template, based on the latest Bootstrap 3">
-    <meta name="keywords" content="html5, template, website, responsive, bootstrap">
-    <meta name="author" content="neuethemes">
-
-    <!-- Preloader -->
-    <link href="assets/custom/2.2.0/css/preloader.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
+    <meta name="description" content="Professional portfolio of Qaisar Khan, showcasing expertise in ETL systems, data engineering, and software engineering with Python, SQL, and XML.">
+    <meta name="keywords" content="ETL, Data Engineering, Python, SQL, Postgres, SQL Server, XML, CSV, MICS, Portfolio">
+    <meta name="author" content="Qaisar Khan">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/vendor/flaticons/flaticon.min.css?v=29022016" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/vendor/hover/css/hover-min.css?v=2.0.2" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/vendor/mfp/css/magnific-popup.min.css?v=1.1.0" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/vendor/owl-carousel/assets/owl.carousel.min.css?v=2.1.0" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/flaticons/flaticon.min.css" rel="stylesheet" />
+    <link href="assets/vendor/hover/css/hover-min.css" rel="stylesheet" />
+    <link href="assets/vendor/mfp/css/magnific-popup.min.css" rel="stylesheet" />
+    <link href="assets/vendor/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/custom/2.2.0/css/style.css" rel="stylesheet" />
+    <link href="assets/custom/2.2.0/css/layouts/samuel.css" rel="stylesheet" />
+    <link href="assets/custom/2.2.0/css/colors/default.css" rel="stylesheet" />
 
-    <!-- Custom styles -->
-    <link href="assets/custom/2.2.0/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/custom/2.2.0/css/layouts/samuel.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/custom/2.2.0/css/colors/default.css" id="color-styles" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 1.45em;
+            color: #333;
+            line-height: 1.8em;
+        }
+        h2, h3, h4 {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-weight: 700;
+            color: #222;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        h2 { font-size: 2em; }
+        h3 { font-size: 1.7em; }
+        h4 { font-size: 1.5em; }
+        p, li {
+            font-size: 1.45em;
+            line-height: 1.8em;
+            margin-bottom: 1em;
+        }
+        ul, ol { margin-left: 1.5em; }
+        .portfolio-item-details .table-cell a { font-size: 1.45em; }
+        body, h2, h3, h4, p, li {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
 </head>
 
 <body id="samuel" class="boxed">
+<header>
+    <section id="top-navigation" class="container-fluid nopadding">
+        <div class="row nopadding ident ui-bg-color01">
+            <a href="index.html">
+                <div class="col-md-4 vc-photo photo-01">&nbsp;</div>
+            </a>
+            <div class="col-md-8 vc-name nopadding">
+                <div class="row nopadding name">
+                    <div class="col-md-10 name-title">
+                        <h1 class="font-accident-two-extralight">Qaisar Khan</h1>
+                    </div>
+                    <div class="col-md-2 nopadding name-pdf">
+                        <a href="#" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV.pdf"></i></a>
+                    </div>
+                </div>
+                <div class="row nopadding position">
+                    <div class="col-md-10 position-title">
+                        <section class="cd-intro">
+                            <h2 class="cd-headline clip is-full-width font-accident-two-light">
+                                <span></span>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Solutions Architect</b>
+                                    <b>Web Developer</b>
+                                    <b>System Programmer</b>
+                                    <b>Team Leader</b>
+                                    <b>Business Analyst</b>
+                                </span>
+                            </h2>
+                        </section>
+                    </div>
+                    <div class="col-md-2 nopadding pdf">
+                        <a href="#" class="hvr-sweep-to-right"><i class="flaticon-behance7" title="My Behance Portfolio"></i></a>
+                    </div>
+                </div>
 
-    <!--Pre-Loader-->
-    <!--<div id="preloader"></div>-->
+                <ul id="nav" class="row nopadding cd-side-navigation">
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01"><a href="index.html" class="hvr-sweep-to-bottom"><i class="flaticon-insignia"></i><span>home</span></a></li>
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02"><a href="resume.html" class="hvr-sweep-to-bottom"><i class="flaticon-graduation61"></i><span>resume</span></a></li>
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03"><a href="portfolio-4-col.html" class="hvr-sweep-to-bottom"><i class="flaticon-book-bag2"></i><span>portfolio</span></a></li>
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04"><a href="contacts.html" class="hvr-sweep-to-bottom"><i class="flaticon-placeholders4"></i><span>contacts</span></a></li>
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05"><a href="feedback.html" class="hvr-sweep-to-bottom"><i class="flaticon-earphones18"></i><span>feedback</span></a></li>
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06"><a href="blog-3-col.html" class="hvr-sweep-to-bottom"><i class="flaticon-pens15"></i><span>blog</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
 
-    <header>
-        <section id="top-navigation" class="container-fluid nopadding">
-            <div class="row nopadding ident ui-bg-color01">
-                <!-- Photo -->
-                <a href="index.html">
-                    <div class="col-md-4 vc-photo photo-01">&nbsp;</div>
-                </a>
-                <!-- /Photo -->
-                <div class="col-md-8 vc-name nopadding">
-                    <!-- Name-Position -->
-                    <div class="row nopadding name">
-                        <div class="col-md-10 name-title">
-                            <h1 class="font-accident-two-extralight">Qaisar Khan</h1>
+<div class="content-wrap">
+    <div id="portfolio-item-page" class="inner-content">
+        <section class="inner-section">
+            <div class="post-header">
+                <h2>DTCC Re-Write - XML Solution</h2>
+                <div class="dividewhite1"></div>
+            </div>
+            <div class="row">
+                <div id="portfolio-overview" class="col-md-12">
+                    <div class="dividewhite2"></div>
+
+                    <!-- Portfolio Details -->
+                    <div class="portfolio-item-details table">
+                        <div class="row table-row">
+                            <div class="table-cell">Last Updated On:</div>
+                            <div class="table-cell"><a href="!#">January 1st, 2024</a></div>
                         </div>
-                        <div class="col-md-2 nopadding name-pdf">
-                            <a href="#" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV.pdf"></i></a>
+                        <div class="row table-row">
+                            <div class="table-cell">Author:</div>
+                            <div class="table-cell"><a href="!#">Qaisar Khan</a></div>
+                        </div>
+                        <div class="row table-row">
+                            <div class="table-cell">Client:</div>
+                            <div class="table-cell"><a href="!#">ABN AMRO Clearing</a></div>
                         </div>
                     </div>
-                    <div class="row nopadding position">
-                        <div class="col-md-10 position-title">
 
-                            <section class="cd-intro">
-                                <h2 class="cd-headline clip is-full-width font-accident-two-light">
-                                    <span></span>
-                                    <span class="cd-words-wrapper">
-                                        <b class="is-visible">Solutions Architect</b>
-                                        <b>Web Developer</b>
-                                        <b>System Programmer</b>
-                                        <b>Team Leader</b>
-                                        <b>Business Analyst</b>
-                                    </span>
-                                </h2>
-                            </section>
+                    <h3>Project Overview</h3>
+                    <p>
+                        Developed an advanced **ETL and Regulatory Reporting System** for ABN AMRO Clearing, automating the submission of financial transaction data to the DTCC using ISO 20022 XML standards. The system integrates multiple data sources, including SQL Server, PostgreSQL, MICS, CSV files, and Excel, into a unified pipeline for high-volume, accurate reporting.
+                    </p>
 
-                        </div>
-                        <div class="col-md-2 nopadding pdf">
-                            <a href="#" class="hvr-sweep-to-right"><i class="flaticon-behance7" title="My Behance Portfolio"></i></a>
-                        </div>
-                    </div>
-                    <!-- /Name-Position -->
-
-                    <!-- Main Navigation -->
-
-                    <ul id="nav" class="row nopadding cd-side-navigation">
-                        <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01" data-animation-duration="1000" data-animation-delay="100">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="flaticon-insignia"></i><span>home</span></a>
-                        </li>
-                        <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000" data-animation-delay="300">
-                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="flaticon-graduation61"></i><span>resume</span></a>
-                        </li>
-                        <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03" data-animation-duration="1000" data-animation-delay="500">
-                            <a href="portfolio-4-col.html" class="hvr-sweep-to-bottom"><i class="flaticon-book-bag2"></i><span>portfolio</span></a>
-                        </li>
-                        <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04" data-animation-duration="1000" data-animation-delay="700">
-                            <a href="contacts.html" class="hvr-sweep-to-bottom"><i class="flaticon-placeholders4"></i><span>contacts</span></a>
-                        </li>
-                        <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000" data-animation-delay="900">
-                            <a href="feedback.html" class="hvr-sweep-to-bottom"><i class="flaticon-earphones18"></i><span>feedback</span></a>
-                        </li>
-                        <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06" data-animation-duration="1000" data-animation-delay="1100">
-                            <a href="blog-3-col.html" class="hvr-sweep-to-bottom"><i class="flaticon-pens15"></i><span>blog</span></a>
-                        </li>
+                    <h3>Technical Architecture & Stack</h3>
+                    <ul>
+                        <li><b>Programming Languages:</b> Python (Object-Oriented), Pandas, NumPy, SQLAlchemy</li>
+                        <li><b>Databases:</b> PostgreSQL, SQL Server, IBM DB2</li>
+                        <li><b>ETL & Data Processing:</b> Custom-built Python ETL modules, batch processing, data validation, reconciliation</li>
+                        <li><b>Data Formats:</b> XML (ISO 20022), CSV, Excel</li>
+                        <li><b>Version Control:</b> Git/GitHub</li>
+                        <li><b>Deployment & Integration:</b> Agile Reporter, secure data transfer protocols, CI/CD integration</li>
                     </ul>
 
-                    <!-- /Main Navigation -->
+                    <h3>Business & Technical Analysis</h3>
+                    <ul>
+                        <li>Performed end-to-end business and technical analysis, aligning regulatory reporting requirements with operational data flows.</li>
+                        <li>Designed data pipelines to handle millions of transactions daily, ensuring 100% reconciliation and error-free XML report generation.</li>
+                        <li>Developed modular, reusable ETL components to support multiple regulatory formats across APAC and global markets.</li>
+                        <li>Implemented data quality checks, automated validation, and exception handling to improve reliability and compliance.</li>
+                    </ul>
+
+                    <h3>Regulatory Reporting Framework</h3>
+                    <ul>
+                        <li>Component-based architecture supporting modular ETL development.</li>
+                        <li>Includes modules for data extraction, pre-processing, aggregation, mapping, post-processing, and report submission.</li>
+                        <li>Supports seamless integration with Agile Reporter for real-time reporting and monitoring.</li>
+                        <li>Optimized for scalability and maintainability, ensuring rapid adaptation to new regulations or reporting formats.</li>
+                    </ul>
+
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>Automated the entire reporting workflow, reducing manual effort and eliminating errors.</li>
+                        <li>Delivered high-performance ETL pipelines capable of processing millions of records efficiently.</li>
+                        <li>Enabled cross-platform database integration and standardized XML report generation.</li>
+                        <li>Enhanced regulatory compliance and reporting accuracy, exceeding client expectations.</li>
+                    </ul>
 
                 </div>
             </div>
         </section>
-    </header>
-
-    <!-- Container -->
-    <div class="content-wrap">
-
-        <div id="portfolio-item-page" class="inner-content">
-            <section class="inner-section">
-
-                <div class="post-header" data-animation-origin="right" data-animation-duration="400" data-animation-delay="100" data-animation-distance="50px">
-                    <h2 class="font-accident-two-normal">DTCC Re-Write - ETL & XML Solution</h2>
-
-                    <div class="dividewhite1"></div>
-                </div>
-                <div class="dividewhite4"></div>
-
-                <div class="row">
-                    <div id="portfolio-overview" class="col-md-12" data-animation-origin="top" data-animation-duration="400" data-animation-delay="600" data-animation-distance="50px">
-
-                        <div class="dividewhite2"></div>
-
-                        <!-- Updated Post Content -->
-                        <div class="portfolio-item-details table">
-                            <div class="row table-row">
-                                <div class="table-cell">Last Updated On:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">August 15th, 2025</a></span></div>
-                            </div>
-                            <div class="row table-row">
-                                <div class="table-cell">Author:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">Qaisar Khan</a></span></div>
-                            </div>
-                            <div class="row table-row">
-                                <div class="table-cell">Client:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">ABN AMRO Clearing</a></span></div>
-                            </div>
-                        </div>
-
-                        <h3>Project Overview</h3>
-                        <p class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            This project involved the **complete redesign and automation of the regulatory reporting pipeline** for a global financial institution. 
-                            The objective was to create a highly reliable and scalable **ETL and data engineering system** that extracts, transforms, validates, and generates regulatory reports in ISO 20022 XML format.
-                            The system integrates with multiple data sources, including **PostgreSQL, SQL Server, legacy MICS systems, and CSV/flat files**, providing a robust and auditable pipeline for regulatory submissions.
-                        </p>
-
-                        <h3>Technical Challenges</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Existing reporting systems were heavily manual and error-prone, lacking automation and traceability.</li>
-                            <li>Data was dispersed across heterogeneous sources including relational databases, legacy MICS systems, and flat files.</li>
-                            <li>Compliance required adherence to **ISO 20022 XML standards**, CPMI-IOSCO Critical Data Elements (CDEs), and regional reporting regulations (MAS, HKMA).</li>
-                            <li>Ensuring **full data reconciliation and validation** for accurate regulatory reporting.</li>
-                        </ul>
-
-                        <h3>Technical Solution & ETL Architecture</h3>
-                        <p class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            The solution was developed as a **modular ETL and reporting framework** using **Python (Object-Oriented Programming)**, with high-performance data processing using **Pandas and Numpy**. 
-                            The architecture is designed for **scalability, maintainability, and auditability**. Key components include:
-                        </p>
-
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li><b>Data Extraction:</b> Connectors to PostgreSQL, SQL Server, MICS, and CSV/flat files. Includes incremental extraction, change-data capture, and automated scheduling.</li>
-                            <li><b>Data Pre-Processing:</b> Cleansing, normalization, type validation, and business-rule checks applied to ensure consistent and high-quality datasets.</li>
-                            <li><b>Transformation & Mapping:</b> Conversion to ISO 20022 XML format, mapping to Critical Data Elements (CDEs), and handling multi-regional reporting requirements.</li>
-                            <li><b>Validation & Reconciliation:</b> Automated cross-checks between source and output, including row-level and aggregate validations, ensuring **100% accuracy**.</li>
-                            <li><b>Post-Processing & Submission:</b> Secure XML generation, encryption, and automated submission to DTCC, with acknowledgement handling and exception reporting.</li>
-                            <li><b>Audit & Logging:</b> Comprehensive logging for each ETL step, full traceability for compliance audits, and error handling with retry mechanisms.</li>
-                            <li><b>Modular Design:</b> Object-oriented, component-based architecture enabling code reuse, easy maintenance, and future expansion.</li>
-                        </ul>
-
-                        <h3>Key Technologies & Tools</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Programming: Python (OOP, Pandas, Numpy, lxml, XML libraries)</li>
-                            <li>Databases: PostgreSQL, SQL Server, IBM DB2, MICS</li>
-                            <li>Data Sources: CSV, flat files, and legacy systems</li>
-                            <li>ETL Framework: Custom modular pipelines, scheduling, logging, and error handling</li>
-                            <li>Data Validation: Reconciliation engine, cross-checks, and exception reporting</li>
-                            <li>Regulatory XML Generation: ISO 20022 format, CPMI-IOSCO CDE compliance</li>
-                            <li>Submission & Security: Secure FTP/SCP, encrypted XML, automated acknowledgement tracking</li>
-                            <li>Version Control & CI/CD: Git/GitHub for deployment and pipeline management</li>
-                        </ul>
-
-                        <h3>Business and Technical Impact</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Achieved **fully automated ETL workflow** for regulatory reporting, replacing error-prone manual processes.</li>
-                            <li>Ensured **100% reconciliation and compliance** with global ISO 20022 standards.</li>
-                            <li>Reduced operational time for report generation by **70%**, increasing productivity.</li>
-                            <li>Enabled scalable, modular, and maintainable architecture ready for future regulatory changes.</li>
-                            <li>Enhanced traceability and auditability, supporting internal and external compliance audits.</li>
-                        </ul>
-
-                        <h3>Optional Enhancements / Future Scope</h3>
-                        <ul class="font-accident-two-normal" style="color:grey; font-family:Garamond; font-size:1.3em;">
-                            <li>Integration with cloud data lakes (AWS, Azure) for improved scalability and disaster recovery.</li>
-                            <li>Real-time ETL pipelines for near-instantaneous regulatory reporting.</li>
-                            <li>Advanced dashboards and analytics for monitoring pipeline health, data quality, and compliance.</li>
-                        </ul>
-
-                    </div>
-                    <!-- /Updated Post Content -->
-
-                </div>
-            </section>
-        </div>
-
     </div>
+</div>
 
-    <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">
-        <div class="container-fluid nopadding">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h5 class="font-accident-two-bold uppercase">Follow me</h5>
-                    <div class="follow">
-                        <ul class="list-inline social">
-                            <li><a target="_blank" href="https://www.linkedin.com/in/qjkconsultants/" class="rst-icon-google"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="https://www.facebook.com/qaisar.khan.127648" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/cdbe59ad3514488" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="divider-dynamic"></div>
-                </div>
-            </div>
-            <div class="dividewhite1"></div>
-            <div class="row">
-                <div class="col-md-12 copyrights">
-                    <p style="float:right;">© 2018 Qaisar Khan.</p>
-                </div>
+<footer class="padding-50 dark ui-bg-color01">
+    <div class="container-fluid nopadding">
+        <div class="row">
+            <div class="col-sm-12">
+                <h5 class="font-accident-two-bold uppercase">Follow me</h5>
+                <ul class="list-inline social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/qjkconsultants/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/qaisar.khan.127648"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/cdbe59ad3514488"><i class="fa fa-twitter"></i></a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col-md-12 copyrights">
+                <p style="float:right;">© 2018 Qaisar Khan.</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
-    <!-- Back to Top -->
-    <div id="back-top"></div>
-    <!-- /Back to Top -->
-
-    <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-
-    <script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js?v=1.1.0" type="text/javascript"></script>
-    <script src="assets/vendor/progressbar/progressbar.min.js?v=1.0.1" type="text/javascript"></script>
-    <script src="assets/vendor/anicounter/jquery.counterup.min.js?v=1.0" type="text/javascript"></script>
-    <script src="assets/vendor/pjax/jquery.pjax.min.js?v=1.9.6" type="text/javascript"></script>
-    <script src="assets/vendor/owl-carousel/owl.carousel.min.js?v=2.1.0" type="text/javascript"></script>
-    <script src="assets/vendor/headlines/headlines.min.js?v=1.0" type="text/javascript"></script>
-
-    <!-- Custom scripts -->
-    <script src="assets/custom/2.2.0/js/animation.js" type="text/javascript"></script>
-    <script src="assets/custom/2.2.0/js/custom.js" type="text/javascript"></script>
-
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/custom/2.2.0/js/animation.js"></script>
+<script src="assets/custom/2.2.0/js/custom.js"></script>
 </body>
-
 </html>
