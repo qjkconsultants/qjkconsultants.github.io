@@ -117,106 +117,142 @@
 
     <!-- Container -->
     <div class="content-wrap">
+
         <div id="portfolio-item-page" class="inner-content">
             <section class="inner-section">
 
-                <!-- Project Header -->
-                <div class="post-header">
-                    <h2>DTCC Regulatory Reporting Automation</h2>
+                <div class="post-header" data-animation-origin="right" data-animation-duration="400" data-animation-delay="100" data-animation-distance="50px">
+                    <h2 class="font-accident-two-normal">Python ETL Reporting Framework  </h2>
+
                     <div class="dividewhite1"></div>
                 </div>
-
+                <div class="dividewhite4"></div>
                 <div class="row">
-                    <div id="portfolio-overview" class="col-md-12">
-                        <div class="dividewhite2"></div>
+                    <div id="portfolio-overview" class="col-md-12" data-animation-origin="top" data-animation-duration="400" data-animation-delay="600" data-animation-distance="50px">
 
-                        <!-- Project Metadata -->
+                        <div class="dividewhite2"></div>
+                        <!-- Post Content -->
                         <div class="portfolio-item-details table">
                             <div class="row table-row">
                                 <div class="table-cell">Last Updated On:</div>
-                                <div class="table-cell"><a href="!#">August 15th, 2025</a></div>
+                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">January 1st, 2024</a></span></div>
                             </div>
                             <div class="row table-row">
                                 <div class="table-cell">Author:</div>
-                                <div class="table-cell"><a href="!#">Qaisar Khan</a></div>
+                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">Qaisar Khan</a></span></div>
                             </div>
                             <div class="row table-row">
                                 <div class="table-cell">Client:</div>
-                                <div class="table-cell"><a href="!#">ABN AMRO Clearing</a></div>
-                            </div>
-                            <div class="row table-row">
-                                <div class="table-cell">Access Level:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;">Internal</span></div>
+                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">ABN AMRO Clearing</a></span></div>
                             </div>
                         </div>
-
-                        <!-- Project Overview -->
-                        <h3>Project Overview</h3>
-                        <p>
-                            This project involved designing and implementing a **fully automated Python-based ETL framework** to generate regulatory reports for the DTCC (Depository Trust & Clearing Corporation). The framework ensures **100% reconciliation, accurate reporting, and compliance** with global regulatory standards including ISO 20022 XML. By leveraging object-oriented programming, modular design, and advanced data engineering techniques, this solution reduced manual intervention and operational risk while enabling fast and scalable report generation.
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                            Designed and develop new framework for the development of Regulatory Reporting projects, using component-based architecture, adhering strictly to the object-oriented design principles. </b>
+                            Aim is to allow developers focus on the business requirements and not utilize time on low level technical complexities, such as reading data from multiple sources, pre-processing/post processing of the data, generating multiple reports as outputs in dynamically created directories.</b>
                         </p>
+                        <h3>Regulatory Reporting Framework Architecture Overview</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>Regulatory Reporting Framework is designed to facilitate the seamless development of Regulatory Reporting projects.</li>
+                                <li>The overarching goal is to enable developers to concentrate on business requirements without being encumbered by low-level technical complexities.</li>
+                                <li>It employs a component-based architecture, ensuring modularity, reusability, and maintainability.</li>
+                                <li>Components, including data access, pre-processing and conversion, aggregation and calculations, data mapping, post-processing, and integration with Agile Reporter, contribute to an efficient, flexible, and accurate development process.</li>
+                            </ol>
+                        </p>                        
+                        <h3>Advantages:</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li><b>Efficiency: </b>Developers focus on business logic, reducing development time and effort.</li>
+                                <li><b>Flexibility: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
+                                <li><b>Modularity: </b>Components promote code reuse and maintainability.</li>
+                                <li><b>Data Accuracy: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                            </ol>
+                        </p>                        
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>The Regulatory Reporting Framework establishes a foundation for efficient, flexible, and accurate development of Regulatory Reporting projects. 
+                                    Its component-based architecture empowers developers to concentrate on business requirements, fostering a streamlined and effective development process. 
+                                    The seamless integration with Agile Reporter further enhances the overall capabilities of the solution.                        
+                                </li>
+                            </ol>
+                        </p>
+                        <h3>Advantages:</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li><b>Object-Oriented Classes: </b>Developers focus on business logic, reducing development time and effort.</li>
+                                <li><b>Data Processing and Conversion: </b>Supports various data sources, ensuring adaptability to diverse environments.</li>
+                                <li><b>Netting, Aggregation, and Calculations: </b>Components promote code reuse and maintainability.</li>
+                                <li><b>Data Mapping: </b>Systematic pre-processing and mapping enhance the accuracy of regulatory reports.</li>
+                                <li><b>Post-Processing: </b>Post-processing involves applying additional rules to the mapped data to meet specific reporting requirements. This step enhances the adaptability of the framework to varied regulatory needs.</li>
+                            </ol>
+                        </p>                        
 
-                        <!-- Technical Implementation -->
-                        <h3>Technical Implementation</h3>
-                        <ul>
-                            <li>Developed modular **ETL components** for data extraction, pre-processing, aggregation, mapping, and post-processing.</li>
-                            <li>Implemented **data extraction** from multiple sources: SQL Server, PostgreSQL, IBM DB2, CSV, and Excel files.</li>
-                            <li>Processed and transformed data using **Python** with **Pandas** and **NumPy**, ensuring efficient handling of large datasets.</li>
-                            <li>Automated **ISO 20022 XML generation** for regulatory reporting, including validation and formatting rules for DTCC submissions.</li>
-                            <li>Integrated with **Agile Reporter** to streamline report submission and acknowledgement receipt.</li>
-                            <li>Developed **object-oriented Python classes** for reusable ETL modules, reducing duplication and improving maintainability.</li>
-                            <li>Created **unit tests and integration tests** to ensure data quality, reconciliation accuracy, and framework reliability.</li>
-                            <li>Designed **robust logging and error-handling** mechanisms for auditing and troubleshooting.</li>
-                            <li>Utilized **ETL orchestration workflows** to manage multi-step data transformations, scheduling, and dependency handling.</li>
-                            <li>Optimized performance for large datasets with vectorized Pandas operations and database indexing strategies.</li>
-                            <li>Implemented secure **database connections and credentials management** using internal vaults.</li>
-                        </ul>
+                        <h3>Component Based Architecture</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            The framework is developed using component-based architecture and developer could simply create a component for their business entity. 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>The component allow access to multiple data sources as input (SQL Server/DB2/PostgreSQL/Excel). </li>
+                                <li>Each component has object-oriented classes (with base and abstract classes) to perform:
+                                    <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1em;">
+                                        <li>Pre-processing of the raw data and rates conversion (Foreign Currency to SGD/HKD).</li>
+                                        <li>Netting/aggregation/mathematical calculations using Pandas/NumPy. </li>
+                                        <li>Map processed data frames to the template required by external source (Agile Reporter)</li>
+                                        <li>Post-processing to apply additional rules on the mapped data and generate outputs.</li>
+                                        <li>The multiple reports are then uploaded to Agile Reporter for Finance to further utilize.</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </p>                        
 
-                        <!-- Business & Technical Analysis -->
-                        <h3>Business & Technical Analysis</h3>
-                        <ul>
-                            <li>Collaborated with business analysts to define reporting requirements and map source data fields to regulatory outputs.</li>
-                            <li>Identified opportunities to **automate repetitive data validation tasks**, improving operational efficiency.</li>
-                            <li>Created technical documentation and **step-by-step guides** for future developers to extend or maintain the framework.</li>
-                            <li>Conducted impact analysis for regulatory updates and implemented **configurable ETL modules** for rapid adaptation.</li>
-                        </ul>
+                        <h3>Business/Technical Analysis</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>Business & technical analysis was performed, ensuring that the developed solutions not only meet the specified requirements but also contribute to the broader success and competitiveness of the organization. </li>
+                                <li>Collaborate with stakeholders to define data requirements, analysis & data manipulation using python libraries (NumPy, Pandas), develop pipelines to extract, transform, and load information, cleaned and prepare data for business analysis, scripts to automate data analysis tasks, develop data-driven solutions to business problems.</li>
+                                <li>Developed Reconciliation Reports for the business components, so that business analysts could understand the rules implemented and supervise the transformation of the data to generate final reports. </li>
+                                <li>Implemented test driven development approach, creating unit tests for the functionality, integration tests for the output data, and code is deployed to multiple environments using Jenkins & CI/CD pipelines, configured the image to run in container via open shift. </li>
+                            </ol>
+                        </p>                        
 
-                        <!-- Achievements -->
-                        <h3>Key Achievements & Impact</h3>
-                        <ul>
-                            <li>Delivered a **fully automated regulatory reporting framework** reducing manual reconciliation errors to zero.</li>
-                            <li>Enabled **scalable report generation** capable of processing large volumes of multi-source financial data.</li>
-                            <li>Ensured **compliance with global regulatory standards**, including ISO 20022 and CPMIIOSCO critical data elements.</li>
-                            <li>Created a **reusable, maintainable, and modular Python ETL architecture** suitable for future regulatory projects.</li>
-                        </ul>
-
-                        <!-- Technical Stack Summary -->
-                        <h3>Technical Stack Summary</h3>
-                        <ul>
-                            <li>Programming Languages: Python (OOP)</li>
-                            <li>Data Processing Libraries: Pandas, NumPy</li>
-                            <li>Databases: SQL Server, PostgreSQL, IBM DB2, CSV/Excel</li>
-                            <li>Reporting Tools: Agile Reporter, XML ISO 20022</li>
-                            <li>Testing: Unit Testing, Integration Testing</li>
-                            <li>ETL Orchestration: In-house Python workflow modules</li>
-                            <li>Security & Credential Management: Internal vaults, encrypted connections</li>
-                            <li>Version Control & CI/CD: Git, Jenkins (for ETL deployment)</li>
-                        </ul>
-
-                        <!-- Generic Project Image -->
-                        <div class="row" style="margin-top:30px; text-align:center;">
-                            <div class="col-md-12">
-                                <img src="https://images.unsplash.com/photo-1591696205602-8a6e0f0b9f9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjI2MzR8MHwxfGFsbHwxfHxkYXRhJTIwcGlwZWxpbmV8ZW58MHx8fHwxNjkxMzQ0ODQ1&ixlib=rb-4.0.3&q=80&w=1200" 
-                                    alt="ETL Data Pipeline Illustration" class="img-responsive" style="margin:0 auto; max-height:400px;">
-                            </div>
-                        </div>
-
+                        <h3>Product Develoment</h3>
+                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
+                            Developed Reporting System for multiple regulatory authorities (Singapore/Hongkong), which:
+                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
+                                <li>Retrieves the trading related transactions from multiple data sources. </li>
+                                <li>Separate components utilize the data and perform calculations and manipulations.</li>
+                                <li>Ledger balances are netted and mapped with GLC codes to segregate balances into different buckets of assets, liabilities, equity, etc. Profit & loss ratios are calculated. </li>
+                                <li>Multiple data frames mapped to the templates required, generating outputs, populating balances into external source (Agile Reporter) for MAS and HKMA regulatory reporting. </li>
+                                <li>ETL Solution Framework automates the entire process, guaranteeing 100% reconciliation and eliminating errors introduced by manual interventions. </li>
+                                <li>The solution is crafted using Object-Oriented Python, Pandas/Numpy for efficient data handling, and seamlessly integrates with various databases, including SQL Server, PostgreSQL, and IBM DB2.</li>
+                                <li>Developed Reconciliation Reports for the business components, so that business analysts could understand the rules implemented and supervise the transformation of the data to generate final reports.</li>
+                                <li>Implemented test driven development approach, creating unit tests for the functionality, integration tests for the output data, and code is deployed to multiple environments using Jenkins & CI/CD pipelines, configured the image to run in container via open shift.</li>
+                                <li>Developed an application to initiate the open shift job, creating a pod, running the business logic inside the container, capturing the logs of the running pods and update the status of jobs in the schedular up on completion. The processing logs are configured and made available for the users to view via SPLUNK.</li>
+                                <li>Automate the deployment process of applications developed (using Jenkins & CI/CD pipeline), configured the applications to run via container and OpenShift.</li>
+                            </ol>
+                        </p>                        
                     </div>
-                </div>
+                    <div class="dividewhite8"></div>
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <h4>High Level Architecture Diagram</h4>
+                        <a href="images/img17_1.1.png" target="new">
+                            <img src="images/img17_1.1.png" class="img-responsive" alt="portfolio item">
+                        </a>
+                        <div class="dividewhite2"></div>
+                    </div>
+                    <div class="dividewhite8"></div>
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <h4>Component View</h4>
+                        <a href="images/img17_1.2.png" target="new">
+                            <img src="images/img17_1.2.png" class="img-responsive" alt="portfolio item">
+                        </a>
+                        <div class="dividewhite2"></div>
+                    </div>
+                    
+                <!-- /Post Content -->
             </section>
         </div>
-    </div>
 
+    </div>
 
     <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">
         <div class="container-fluid nopadding">

@@ -130,6 +130,7 @@
                     <div id="portfolio-overview" class="col-md-12">
                         <div class="dividewhite2"></div>
 
+                        <!-- Project Metadata -->
                         <div class="portfolio-item-details table">
                             <div class="row table-row">
                                 <div class="table-cell">Last Updated On:</div>
@@ -149,70 +150,96 @@
                             </div>
                         </div>
 
+                        <!-- Project Overview -->
                         <h3>Project Overview</h3>
                         <p>
-                            The Python ETL Reporting Framework was developed to streamline the creation of regulatory reports by automating data extraction, transformation, and loading processes. The framework employs a component-based architecture, adhering to object-oriented design principles, enabling developers to focus on business logic without delving into technical complexities.
+                            Developed a **Python-based ETL Reporting Framework** designed for automated extraction, transformation, and reporting of high-volume financial and operational data. The framework integrates multiple data sources, including **SQL Server, PostgreSQL, IBM DB2, CSV, Excel, and XML**, into reconciled, auditable reports. Its **component-based architecture** allows modular, reusable, and maintainable design, enabling quick adaptation to changing reporting requirements and regulatory standards.
                         </p>
 
+                        <!-- Technical Implementation -->
                         <h3>Technical Implementation</h3>
                         <ul>
-                            <li>Designed a modular framework with components for data access, pre-processing, aggregation, mapping, and post-processing.</li>
-                            <li>Utilized Python libraries such as Pandas and NumPy for data manipulation and calculations.</li>
-                            <li>Implemented data extraction from multiple sources, including SQL Server, DB2, PostgreSQL, and Excel files.</li>
-                            <li>Developed object-oriented classes to handle various data processing tasks, ensuring code reusability and maintainability.</li>
-                            <li>Integrated the framework with Agile Reporter for seamless report generation and submission.</li>
-                            <li>Applied test-driven development practices, creating unit and integration tests to ensure data accuracy and system reliability.</li>
-                            <li>Deployed the framework using Jenkins and CI/CD pipelines, with containerization via OpenShift for consistent environment management.</li>
+                            <li>Designed a **modular Python ETL framework** with separate components for:  
+                                <ul>
+                                    <li>Data Extraction (DB connectors, file readers for CSV/Excel/XML)</li>
+                                    <li>Preprocessing & Validation (handling missing values, data cleansing, formatting)</li>
+                                    <li>Transformation & Aggregation (vectorized Pandas operations, calculations, grouping)</li>
+                                    <li>Mapping & Standardization (converting raw data to required reporting formats)</li>
+                                    <li>Post-Processing & Reconciliation (validating outputs, generating error logs)</li>
+                                    <li>Report Generation & Submission (XML, CSV, Excel outputs, integration with downstream systems)</li>
+                                </ul>
+                            </li>
+                            <li>Implemented **Python OOP classes** for reusable ETL components, enabling isolation and independent testing of each module.</li>
+                            <li>Automated high-volume **data transformations using Pandas and NumPy**, ensuring accuracy, consistency, and performance.</li>
+                            <li>Integrated **SQL databases** and flat file sources with dynamic connection handling and secure credentials management.</li>
+                            <li>Provided **audit logging and exception handling** at each stage to ensure traceability and error diagnosis.</li>
+                            <li>Developed **configuration-driven workflows** allowing easy addition of new data sources or reports without modifying core code.</li>
+                            <li>Optimized ETL performance using **parallel processing, vectorized operations, and database indexing strategies**.</li>
+                            <li>Ensured **data security** by storing credentials securely and encrypting sensitive data during processing.</li>
                         </ul>
 
+                        <!-- Component-Based Architecture -->
+                        <h3>Component-Based Architecture</h3>
+                        <p>
+                            The framework follows a **component-based architecture**, separating functionality into modular, independent units. This design ensures **reusability, maintainability, and scalability**:
+                        </p>
+                        <ul>
+                            <li><b>Data Access Component:</b> Handles connections to multiple databases and file sources (SQL Server, PostgreSQL, DB2, CSV, Excel, XML).</li>
+                            <li><b>Preprocessing & Validation Component:</b> Cleanses, validates, and standardizes input data, handling missing or inconsistent values.</li>
+                            <li><b>Transformation & Aggregation Component:</b> Applies business logic, calculates metrics, and aggregates data into structured formats.</li>
+                            <li><b>Mapping Component:</b> Converts internal data structures into regulatory or business report formats.</li>
+                            <li><b>Post-Processing Component:</b> Reconciles output, generates logs, and ensures data integrity.</li>
+                            <li><b>Report Generation & Delivery Component:</b> Produces XML, CSV, or Excel reports and integrates with downstream systems for distribution.</li>
+                            <li><b>Configuration Component:</b> Centralizes workflow definitions, making it easy to add or modify ETL processes without changing code.</li>
+                        </ul>
+                        <p>
+                            This approach allows each module to be **developed, tested, and maintained independently**, significantly reducing errors and development time. It also supports **scalable and adaptable reporting pipelines**, capable of handling evolving business and regulatory requirements.
+                        </p>
+
+                        <!-- Business & Technical Analysis -->
                         <h3>Business & Technical Analysis</h3>
                         <ul>
-                            <li>Collaborated with stakeholders to define data requirements and transformation rules.</li>
-                            <li>Developed reconciliation reports to validate data transformations and ensure compliance with regulatory standards.</li>
-                            <li>Provided technical documentation and training to business analysts, facilitating understanding and oversight of the reporting process.</li>
-                            <li>Implemented automated data analysis tasks to enhance decision-making and operational efficiency.</li>
+                            <li>Collaborated with business teams to define report specifications and map source data accurately.</li>
+                            <li>Automated reconciliation and validation processes to reduce manual effort and operational risk.</li>
+                            <li>Prepared **technical documentation and developer guides** for maintainability and onboarding.</li>
+                            <li>Conducted performance profiling to optimize processing for large datasets.</li>
+                            <li>Implemented modular ETL pipelines enabling **fast adaptation** to new reporting requirements.</li>
                         </ul>
 
+                        <!-- Achievements & Impact -->
                         <h3>Key Achievements & Impact</h3>
                         <ul>
-                            <li>Reduced development time by providing a reusable framework for regulatory reporting projects.</li>
-                            <li>Enhanced data accuracy and compliance through systematic data processing and validation.</li>
-                            <li>Improved collaboration between technical and business teams through clear documentation and reporting tools.</li>
-                            <li>Enabled scalable and maintainable reporting solutions adaptable to future regulatory changes.</li>
+                            <li>Delivered a **fully automated Python ETL Reporting Framework** with 100% data reconciliation.</li>
+                            <li>Enabled **auditable and high-volume reporting** for internal stakeholders.</li>
+                            <li>Developed a **modular, reusable, and scalable architecture** ready for future ETL projects.</li>
+                            <li>Reduced manual intervention, improved operational efficiency, and enhanced compliance readiness.</li>
                         </ul>
 
+                        <!-- Technical Stack Summary -->
                         <h3>Technical Stack Summary</h3>
                         <ul>
-                            <li>Programming Languages: Python (Object-Oriented Programming)</li>
-                            <li>Data Processing Libraries: Pandas, NumPy</li>
-                            <li>Data Sources: SQL Server, DB2, PostgreSQL, Excel</li>
-                            <li>Reporting Tools: Agile Reporter</li>
-                            <li>Development Practices: Test-Driven Development (TDD)</li>
-                            <li>Version Control & CI/CD: Git, Jenkins, OpenShift</li>
-                            <li>Deployment: Containerization via OpenShift</li>
+                            <li>Programming: Python (OOP, modular design)</li>
+                            <li>Data Processing: Pandas, NumPy</li>
+                            <li>Databases: SQL Server, PostgreSQL, IBM DB2</li>
+                            <li>File Formats: CSV, Excel, XML</li>
+                            <li>ETL Orchestration: Python modules, configuration-driven workflows</li>
+                            <li>Security & Credentials: Encrypted storage, secure DB connections</li>
+                            <li>Testing & Validation: Unit tests, reconciliation checks, audit trails</li>
                         </ul>
 
-                        <!-- Images at the Bottom, Horizontal Stack -->
-                        <div class="row" style="margin-top:30px; text-align:center;">
-                            <div class="col-md-3 col-sm-6">
-                                <img src="https://tse2.mm.bing.net/th/id/OIP.s-zB1kiHWL4GREPJ3FxrDAHaC9?r=0&pid=Api" alt="AWS Migration & Modernization" class="img-responsive" style="margin:0 auto;">
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <img src="https://tse4.mm.bing.net/th/id/OIP.gYvKZXEc7QC7p7jwKS4K-wHaDt?r=0&pid=Api" alt="Strategies for Migrating Applications to AWS" class="img-responsive" style="margin:0 auto;">
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <img src="https://tse2.mm.bing.net/th/id/OIP.GtlQrRpJhHEzoFVw-zFeJAHaLF?r=0&pid=Api" alt="Application Modernization on AWS Cloud" class="img-responsive" style="margin:0 auto;">
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <img src="https://tse1.mm.bing.net/th/id/OIP.wl1Pfzp16dQcKrOD2c6gCwHaEK?r=0&pid=Api" alt="Accelerating Migration to AWS" class="img-responsive" style="margin:0 auto;">
-                            </div>
-                        </div>
+                        <!-- Architecture Diagram -->
+                        <h3>Component-Based Architecture Diagram</h3>
+                        <p>Below is a conceptual illustration of the ETL framework components:</p>
+                        <img src="assets/images/etl_framework_diagram.png" alt="ETL Component-Based Architecture" style="width:100%; max-width:900px; display:block; margin:20px auto;">
+                        <p style="font-style:italic; text-align:center;">Data flows sequentially through each component: Data Access → Preprocessing → Transformation → Mapping → Post-Processing → Report Generation & Delivery</p>
 
                     </div>
                 </div>
+
             </section>
         </div>
     </div>
+
 
 
 
