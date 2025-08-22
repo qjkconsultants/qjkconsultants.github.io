@@ -117,68 +117,86 @@
 
     <!-- Container -->
     <div class="content-wrap">
-
         <div id="portfolio-item-page" class="inner-content">
             <section class="inner-section">
-
-                <div class="post-header" data-animation-origin="right" data-animation-duration="400" data-animation-delay="100" data-animation-distance="50px">
-                    <h2 class="font-accident-two-normal">Generative AI Solution using AWS Bedrock</h2>
-
+                <div class="post-header">
+                    <h2>ETL Pipeline for Redshift Cluster Management</h2>
                     <div class="dividewhite1"></div>
                 </div>
-                <div class="dividewhite4"></div>
                 <div class="row">
-                    <div id="portfolio-overview" class="col-md-12" data-animation-origin="top" data-animation-duration="400" data-animation-delay="600" data-animation-distance="50px">
-
+                    <div id="portfolio-overview" class="col-md-12">
                         <div class="dividewhite2"></div>
-                        <!-- Post Content -->
+
                         <div class="portfolio-item-details table">
                             <div class="row table-row">
                                 <div class="table-cell">Last Updated On:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">January 1st, 2024</a></span></div>
+                                <div class="table-cell"><a href="!#">August 22nd, 2025</a></div>
                             </div>
                             <div class="row table-row">
                                 <div class="table-cell">Author:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">Qaisar Khan</a></span></div>
+                                <div class="table-cell"><a href="!#">Qaisar Khan</a></div>
                             </div>
                             <div class="row table-row">
                                 <div class="table-cell">Client:</div>
-                                <div class="table-cell"><span style="font-family:Garamond;"> <a href="!#">ABN AMRO Clearing</a></span></div>
+                                <div class="table-cell"><a href="!#">Data Engineering Nano Degree (Udacity)</a></div>
                             </div>
                         </div>
-                        <h3>Project Details</h3>
-                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
-                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                                <li>Currently ABN AMRO is required to report on ESG data from our clients, which is being manually extracted currently from the annual reports (pdf). </li>
-                                <li>ESG stands for Environmental, Social and Governance. This is often called sustainability. 
-                                    In a business context, sustainability is about the company’s business model, i.e. how its products and services contribute to sustainable development.
-                                </li>
-                                <li>This is quite some manual labor, which the company would like to replace by utilizing Gen-AI and then doing verification rather than extracting the data themselves manually. 
-                                    Additionally, multiple other departments need to extract financial information from these annual reports, which could also be automated.</li>
-                            </ol>
-                        </p>
-                        <h3>Implementation</h3>
-                        <p class="font-accident-two-normal " style="color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;"> 
-                            <ol style="list-style-type:disc; color:grey; word-spacing:5px; font-family:Garamond; font-size:1.3em;">
-                                <li>Designed/Develop solution using Gen-AI, to extract data using Amazon Bedrock, creating knowledge bases implementing AI technique - RAG.</li>
-                                <li>Retrieval-Augmented Generation (RAG) enhances the capabilities of a large language model (LLM) by allowing it to access and incorporate relevant information from external sources, like a knowledge base or database, before generating a response, essentially making its outputs more accurate and up to date by retrieving contextually relevant data in real-time instead of relying solely on its pre-trained knowledge. </li>
-                                <li>It is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. </li>
-                                <li>Knowledge base for Amazon Bedrock help you take advantage of Retrieval Augmented Generation to augment responses generated by Large Language Models (LLMs). </li>
-                                <li>When you set up a knowledge base with your data sources, your application can query the knowledge base to return information to answer the query either with direct quotations from sources or with natural responses generated from the query results. </li>
-                                <li>With knowledge bases, you can build applications that are enriched by the context that is received from querying a knowledge base. It enables a faster time to market by abstracting from the heavy lifting of building pipelines and providing you an out-of-the-box RAG solution to reduce the build time for your application. </li>
-                                <li>Adding knowledge base also increase cost-effectiveness by removing the need to continually train your model to be able to leverage your private data.</li>
-                                <li>Developed AI workflows connecting Amazon Bedrock prompts, knowledge base, and other AWS services to allow the application query the knowledge bases and extract the data.</li>
-                                <li>Implemented Lambda functions/API Gateway to submit request to the AI solution for data retrieval, generating ESG report, which is then uploaded to S3 bucket, available for download. </li>
-                            </ol>
-                        </p>
-                        <br/>
 
-                    </div
-                <!-- /Post Content -->
+                        <h3>Project Overview</h3>
+                        <p>
+                            This project implements an **ETL (Extract, Transform, Load) Pipeline** using Python to automate the management of Redshift clusters, load data into staging and final tables, and perform parallel ETL operations. The pipeline integrates with **AWS Redshift**, leveraging services such as **IAM Roles** for access management and **AWS EC2** for resource provisioning.
+                            The framework is designed to simplify the data pipeline lifecycle, including cluster creation, data insertion, table management, and data validation. It uses a **modular architecture**, making it adaptable to different data processing needs.
+                        </p>
+
+                        <h3>Technical Implementation & Tools</h3>
+                        <ul>
+                            <li>Developed an **ETL pipeline** using **Python**, integrated with **AWS Redshift**, for managing the full lifecycle of Redshift clusters.</li>
+                            <li>Used **IAM Roles** for seamless **AWS access management**, allowing automated resource management and data operations.</li>
+                            <li>Implemented **modular Python classes** for managing different stages of the pipeline, such as cluster creation, ETL processing, and database management.</li>
+                            <li>Utilized **Pandas** for **data transformation** and validation, ensuring seamless data cleansing and aggregation before loading into Redshift.</li>
+                            <li>Leveraged **parallel ETL operations** for optimized data loading, ensuring high-performance processing for large datasets.</li>
+                            <li>Ensured secure data access with **IAM roles** and **AWS encryption mechanisms**, preventing unauthorized access to sensitive information.</li>
+                            <li>Automated the creation of **Redshift tables**, handling both staging and final tables with custom data mappings and transformations.</li>
+                            <li>Implemented comprehensive **logging** and **error handling** to ensure traceability and operational diagnostics.</li>
+                            <li>Deployed the solution using **AWS EC2** for resource provisioning and script execution, automating the entire pipeline from start to finish.</li>
+                        </ul>
+
+                        <h3>Business & Technical Analysis</h3>
+                        <ul>
+                            <li>Collaborated with stakeholders to define pipeline requirements and ensure alignment with reporting and data processing needs.</li>
+                            <li>Mapped data sources to their respective **Redshift tables**, ensuring the correct mapping of data formats and structures.</li>
+                            <li>Implemented **parallel ETL processing** to significantly reduce the time required to load large datasets into Redshift.</li>
+                            <li>Optimized Redshift **cluster performance** by ensuring proper indexing, partitioning, and resource allocation.</li>
+                            <li>Enabled quick **adaptation to new data requirements**, ensuring scalability for future business needs and data integration projects.</li>
+                        </ul>
+
+                        <h3>Key Achievements & Impact</h3>
+                        <ul>
+                            <li>Delivered a fully **automated ETL pipeline** for Redshift cluster management, reducing manual intervention and errors in data processing.</li>
+                            <li>Enabled **scalable, parallel ETL operations**, ensuring faster data processing even with high-volume datasets.</li>
+                            <li>Optimized data processing for **AWS Redshift**, resulting in improved performance for analytical workloads and reporting.</li>
+                            <li>Created a **modular and reusable framework** for ETL processes, supporting future projects with minimal rework.</li>
+                            <li>Improved **data integrity and security** by incorporating automated logging, error handling, and secure access mechanisms (IAM roles, encryption).</li>
+                        </ul>
+
+                        <h3>Technical Stack Summary</h3>
+                        <ul>
+                            <li>Languages: Python, SQL</li>
+                            <li>Data Processing: Pandas, NumPy</li>
+                            <li>Cloud Infrastructure: AWS Redshift, EC2, IAM, S3</li>
+                            <li>ETL Framework: Python classes, Modular design</li>
+                            <li>Security & Credentials: AWS IAM, Encryption (KMS)</li>
+                            <li>Version Control: Git, GitHub</li>
+                        </ul>
+
+                    </div>
+                </div>
             </section>
         </div>
-
     </div>
+
+
+
 
     <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">
         <div class="container-fluid nopadding">
