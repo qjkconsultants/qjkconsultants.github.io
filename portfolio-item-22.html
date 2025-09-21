@@ -127,11 +127,21 @@
                     <div id="portfolio-overview" class="col-md-12">
                         <div class="dividewhite2"></div>
 
+                        <!-- Last Updated & New Features Highlight -->
+                        <div class="update-highlight" style="border:1px solid #4CAF50; padding:15px; background:#f0fff0; border-radius:8px; margin-bottom:20px;">
+                            <strong>Last Updated:</strong> September 21st, 2025<br>
+                            <strong>New Features Implemented:</strong>
+                            <ul style="margin:5px 0 0 20px;">
+                                <li>Hourly DAG scheduling and retries following Airflow 2.x best practices.</li>
+                                <li>Parameterized S3 paths, JSONPaths, compression, and region support for staging.</li>
+                                <li>Parallel staging and dimension/fact loading for improved ETL runtime.</li>
+                                <li>Full-refresh or append-only strategies for dimension and fact tables.</li>
+                                <li>Dynamic templated S3 keys to enable backfills and operational flexibility.</li>
+                                <li>Enhanced DataQualityOperator with parameterized tests and failure alerts.</li>
+                            </ul>
+                        </div>
+
                         <div class="portfolio-item-details table">
-                            <div class="row table-row">
-                                <div class="table-cell">Last Updated On:</div>
-                                <div class="table-cell"><a href="!#">September 20th, 2025</a></div>
-                            </div>
                             <div class="row table-row">
                                 <div class="table-cell">Author:</div>
                                 <div class="table-cell"><a href="!#">Qaisar Khan</a></div>
@@ -144,49 +154,49 @@
 
                         <h3>Project Overview</h3>
                         <p>
-                            This project implements a **modular ETL pipeline** using **Apache Airflow** to orchestrate the extraction, transformation, and loading of data into **Amazon Redshift**. 
-                            The pipeline automates the full lifecycle of a data warehouse, including creation and management of **staging**, **dimension**, and **fact tables**, loading raw JSON data from **S3**, and performing **data quality validations**. 
-                            Its modular design allows easy scaling, adding new tables, or integrating additional datasets.
+                            This project implements a <strong>modular, production-ready ETL pipeline</strong> using <strong>Apache Airflow</strong> to orchestrate extraction, transformation, and loading of data into <strong>Amazon Redshift</strong>. The pipeline automates the full lifecycle of a data warehouse, including creation and management of <strong>staging</strong>, <strong>dimension</strong>, and <strong>fact tables</strong>, ingestion of raw JSON data from <strong>S3</strong>, and comprehensive <strong>data quality validations</strong>.
+                            <br><br>
+                            As a <strong>Senior Data Engineer</strong>, I designed the pipeline to be fully scalable, maintainable, and modular, enabling other engineers to extend functionality with minimal guidance. Decisions such as templated S3 keys, parameterized JSONPaths, and configurable COPY commands reflect best practices for enterprise-grade ETL.
                         </p>
 
                         <h3>Technical Implementation & Tools</h3>
                         <ul>
-                            <li>Developed the ETL pipeline using **Python** and **Airflow DAGs** for scheduling and orchestration.</li>
-                            <li>Implemented **custom Airflow operators**:
+                            <li>Developed ETL pipeline using <strong>Python</strong> and <strong>Apache Airflow</strong> DAGs for orchestration and scheduling.</li>
+                            <li>Implemented <strong>custom Airflow operators</strong> to encapsulate key ETL logic, improve reusability, and enforce consistency across multiple tables:
                                 <ul>
-                                    <li>`StageToRedshiftOperator` – loads JSON files from S3 into Redshift staging tables</li>
-                                    <li>`LoadDimensionOperator` – inserts data into dimension tables (`users`, `songs`, `artists`, `time`)</li>
-                                    <li>`LoadFactOperator` – populates fact tables (`songplays`, `unmatched_songplays`)</li>
-                                    <li>`DataQualityOperator` – performs automated validation checks on critical tables</li>
-                                    <li>`RedshiftTableCreator` – automates drop/create table tasks using SQL</li>
+                                    <li><code>StageToRedshiftOperator</code> – loads JSON files from S3 into staging tables with templated S3 keys, prefix checks, and error handling.</li>
+                                    <li><code>LoadDimensionOperator</code> – inserts data into dimension tables (<em>users, songs, artists, time</em>) with overwrite/append strategies, pre/post SQL support, and row-count validation.</li>
+                                    <li><code>LoadFactOperator</code> – inserts data into fact tables (<em>songplays, unmatched_songplays</em>) with optional pre/post SQL, validation, and fail-fast behavior.</li>
+                                    <li><code>DataQualityOperator</code> – executes automated data quality tests (null checks, uniqueness, referential integrity) and raises failures for operational alerting.</li>
+                                    <li><code>RedshiftTableCreator</code> – modularized table drop/create tasks using SQLExecuteQueryOperator for maintainable schema management.</li>
                                 </ul>
                             </li>
-                            <li>Supports **templated S3 keys** and configurable **JSONPaths** (`auto` or custom) for efficient COPY operations.</li>
-                            <li>Enabled **full-refresh or append strategies** using `truncate` flags in dimension/fact tables.</li>
-                            <li>Performed **parallel staging loads** to optimize DAG runtime for large datasets.</li>
-                            <li>Integrated **logging and error handling** for traceability and operational diagnostics.</li>
-                            <li>Ensured **data integrity** through referential checks and custom data quality validations.</li>
-                            <li>Leverages **AWS Redshift and S3** for scalable, high-performance storage and ingestion.</li>
-                            <li>DAG configuration includes hourly execution, retry policies, and safe handling of dependencies.</li>
+                            <li>Designed DAG to support <strong>parallel staging and dimension/fact loads</strong>, reducing runtime and increasing throughput for large datasets.</li>
+                            <li>Templated S3 keys allow dynamic execution and backfills, demonstrating forward-thinking design for production workloads.</li>
+                            <li>Parameterization of region, JSONPaths, and compression ensures flexibility across multiple Redshift clusters and environments.</li>
+                            <li>Integrated logging, retries, and robust error handling, ensuring operational reliability and maintainability.</li>
+                            <li>Implemented strict data validation and referential integrity, ensuring the pipeline delivers accurate and trustworthy data for business intelligence and analytics.</li>
+                            <li>Leveraged AWS services (Redshift, S3, IAM) following secure best practices for credentials and access management.</li>
                         </ul>
 
                         <h3>Business & Technical Analysis</h3>
                         <ul>
-                            <li>Collaborated with stakeholders to define ETL requirements and table schemas aligned with reporting needs.</li>
-                            <li>Mapped raw **S3 JSON data** to staging tables and downstream dimensions/facts for accurate transformations.</li>
-                            <li>Implemented **parallel processing** to reduce the total time for data ingestion into Redshift.</li>
-                            <li>Designed **dimension/fact table dependencies** to maintain referential integrity and accurate analytics.</li>
-                            <li>Enabled rapid adaptation to new datasets or business requirements through modular DAG and operator design.</li>
+                            <li>Collaborated with stakeholders to define ETL requirements, data schemas, and reporting needs, demonstrating leadership in technical decision-making.</li>
+                            <li>Mapped raw S3 JSON data to staging, dimension, and fact tables with attention to detail and scalable transformations.</li>
+                            <li>Implemented parallel ETL processing and dependency-aware DAGs to optimize cluster performance and reduce end-to-end processing time.</li>
+                            <li>Developed a framework for modular table management and operator reusability, enabling other engineers to easily extend functionality.</li>
+                            <li>Designed for operational excellence, with automated validation, logging, and alerts, supporting proactive monitoring of production workflows.</li>
                         </ul>
 
                         <h3>Key Achievements & Impact</h3>
                         <ul>
-                            <li>Delivered a fully **automated ETL pipeline** for Redshift data warehousing, minimizing manual intervention.</li>
-                            <li>Enabled **scalable, parallel ETL processing**, significantly improving runtime for large datasets.</li>
-                            <li>Ensured **data accuracy and completeness** using automated quality checks and validation.</li>
-                            <li>Created a **reusable modular framework**, facilitating future extension to new tables or sources.</li>
-                            <li>Optimized Redshift **COPY commands** with JSONPaths and partitioned S3 keys for efficient data loading.</li>
-                            <li>Improved **operational reliability** with Airflow DAG visualization, logging, and error handling.</li>
+                            <li>Delivered a fully automated ETL pipeline, minimizing manual intervention and ensuring consistent, accurate data delivery.</li>
+                            <li>Enabled scalable, parallel ETL processing with enterprise-grade performance and maintainability.</li>
+                            <li>Designed a reusable, modular framework for rapid adaptation to new datasets or business requirements.</li>
+                            <li>Implemented production-ready practices including templated S3 keys, parameterization, retries, and robust error handling.</li>
+                            <li>Ensured data integrity and security with IAM-based credentials, logging, and automated validation, demonstrating senior-level oversight of data quality and reliability.</li>
+                            <li>Mentored peers and documented best practices through operator modularization and reusable DAG templates, reflecting leadership and senior engineering capabilities.</li>
+                            <li>Learned and applied Airflow 2.x best practices, dynamic templating, and production-grade operator design, showcasing strong technical depth.</li>
                         </ul>
 
                         <h3>Technical Stack Summary</h3>
@@ -198,6 +208,7 @@
                             <li>Data Processing: SQL transformations, JSON parsing</li>
                             <li>Security & Credentials: AWS IAM, Access keys via Airflow connections</li>
                             <li>Version Control: Git, GitHub</li>
+                            <li>Senior Responsibilities Demonstrated: Architecture design, pipeline scalability, operational reliability, technical leadership, mentoring, and best-practice adoption.</li>
                         </ul>
 
                     </div>
@@ -205,6 +216,7 @@
             </section>
         </div>
     </div>
+
 
 
     <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">

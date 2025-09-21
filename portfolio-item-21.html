@@ -127,11 +127,21 @@
                     <div id="portfolio-overview" class="col-md-12">
                         <div class="dividewhite2"></div>
 
+                        <!-- Last Updated & Highlights -->
+                        <div class="update-highlight" style="border:1px solid #4CAF50; padding:15px; background:#f0fff0; border-radius:8px; margin-bottom:20px;">
+                            <strong>Last Updated:</strong> September 21st, 2025<br>
+                            <strong>Senior-Level Enhancements:</strong>
+                            <ul style="margin:5px 0 0 20px;">
+                                <li>End-to-end automation of Redshift cluster management using Python and Airflow orchestration.</li>
+                                <li>Parallel ETL execution and optimized staging/fact/dimension workflows to maximize throughput.</li>
+                                <li>Secure access and credentials management via AWS IAM and KMS encryption for production-grade pipelines.</li>
+                                <li>Reusable modular Python classes for cluster operations, ETL workflows, and table management.</li>
+                                <li>Integrated logging, error handling, and validation for operational reliability.</li>
+                                <li>Parameterization and modular architecture for scalable deployment across multiple environments.</li>
+                            </ul>
+                        </div>
+
                         <div class="portfolio-item-details table">
-                            <div class="row table-row">
-                                <div class="table-cell">Last Updated On:</div>
-                                <div class="table-cell"><a href="!#">August 22nd, 2025</a></div>
-                            </div>
                             <div class="row table-row">
                                 <div class="table-cell">Author:</div>
                                 <div class="table-cell"><a href="!#">Qaisar Khan</a></div>
@@ -144,39 +154,46 @@
 
                         <h3>Project Overview</h3>
                         <p>
-                            This project implements an **ETL (Extract, Transform, Load) Pipeline** using Python to automate the management of Redshift clusters, load data into staging and final tables, and perform parallel ETL operations. The pipeline integrates with **AWS Redshift**, leveraging services such as **IAM Roles** for access management and **AWS EC2** for resource provisioning.
-                            The framework is designed to simplify the data pipeline lifecycle, including cluster creation, data insertion, table management, and data validation. It uses a **modular architecture**, making it adaptable to different data processing needs.
+                            Designed and implemented a <strong>production-ready ETL pipeline</strong> for Redshift cluster management, using Python and AWS services. The pipeline automates cluster provisioning, data loading into staging and final tables, and ensures reliable parallel ETL execution.
+                            <br><br>
+                            As a <strong>Senior Data Engineer</strong>, I focused on creating a modular, reusable framework that supports multiple datasets and future scalability. Key architectural decisions include parameterized cluster and ETL operations, parallel data loading, and robust error handling.
                         </p>
 
                         <h3>Technical Implementation & Tools</h3>
                         <ul>
-                            <li>Developed an **ETL pipeline** using **Python**, integrated with **AWS Redshift**, for managing the full lifecycle of Redshift clusters.</li>
-                            <li>Used **IAM Roles** for seamless **AWS access management**, allowing automated resource management and data operations.</li>
-                            <li>Implemented **modular Python classes** for managing different stages of the pipeline, such as cluster creation, ETL processing, and database management.</li>
-                            <li>Utilized **Pandas** for **data transformation** and validation, ensuring seamless data cleansing and aggregation before loading into Redshift.</li>
-                            <li>Leveraged **parallel ETL operations** for optimized data loading, ensuring high-performance processing for large datasets.</li>
-                            <li>Ensured secure data access with **IAM roles** and **AWS encryption mechanisms**, preventing unauthorized access to sensitive information.</li>
-                            <li>Automated the creation of **Redshift tables**, handling both staging and final tables with custom data mappings and transformations.</li>
-                            <li>Implemented comprehensive **logging** and **error handling** to ensure traceability and operational diagnostics.</li>
-                            <li>Deployed the solution using **AWS EC2** for resource provisioning and script execution, automating the entire pipeline from start to finish.</li>
+                            <li>Developed ETL pipeline using <strong>Python</strong>, integrating with <strong>AWS Redshift, S3, and IAM</strong> for automated data workflows.</li>
+                            <li>Implemented modular Python classes for:
+                                <ul>
+                                    <li>Cluster provisioning, start/stop operations, and resource management.</li>
+                                    <li>ETL workflows, including staging, dimension, and fact table management.</li>
+                                    <li>Data validation and integrity checks using Pandas and SQL transformations.</li>
+                                </ul>
+                            </li>
+                            <li>Leveraged <strong>parallel processing</strong> for efficient ETL operations, reducing runtime for large datasets.</li>
+                            <li>Parameterization of cluster credentials, S3 paths, and table operations ensures adaptability and operational flexibility.</li>
+                            <li>Integrated logging, retries, and error handling for production-level reliability.</li>
+                            <li>Used IAM roles and AWS KMS encryption for secure credential management, demonstrating best practices for enterprise-grade pipelines.</li>
+                            <li>Automated table creation and management in Redshift, supporting both staging and final table operations.</li>
+                            <li>Deployed the pipeline using AWS EC2, ensuring repeatable, scalable execution in cloud environments.</li>
                         </ul>
 
                         <h3>Business & Technical Analysis</h3>
                         <ul>
-                            <li>Collaborated with stakeholders to define pipeline requirements and ensure alignment with reporting and data processing needs.</li>
-                            <li>Mapped data sources to their respective **Redshift tables**, ensuring the correct mapping of data formats and structures.</li>
-                            <li>Implemented **parallel ETL processing** to significantly reduce the time required to load large datasets into Redshift.</li>
-                            <li>Optimized Redshift **cluster performance** by ensuring proper indexing, partitioning, and resource allocation.</li>
-                            <li>Enabled quick **adaptation to new data requirements**, ensuring scalability for future business needs and data integration projects.</li>
+                            <li>Collaborated with stakeholders to define pipeline requirements, ensuring alignment with business reporting and analytics needs.</li>
+                            <li>Mapped multiple data sources to Redshift tables, ensuring accurate transformation and data lineage.</li>
+                            <li>Optimized Redshift cluster performance via indexing, partitioning, and parallel operations.</li>
+                            <li>Designed modular ETL workflows and cluster operations to enable rapid adaptation to new datasets and requirements.</li>
+                            <li>Implemented operational reliability practices including automated monitoring, logging, and alerting for production readiness.</li>
                         </ul>
 
                         <h3>Key Achievements & Impact</h3>
                         <ul>
-                            <li>Delivered a fully **automated ETL pipeline** for Redshift cluster management, reducing manual intervention and errors in data processing.</li>
-                            <li>Enabled **scalable, parallel ETL operations**, ensuring faster data processing even with high-volume datasets.</li>
-                            <li>Optimized data processing for **AWS Redshift**, resulting in improved performance for analytical workloads and reporting.</li>
-                            <li>Created a **modular and reusable framework** for ETL processes, supporting future projects with minimal rework.</li>
-                            <li>Improved **data integrity and security** by incorporating automated logging, error handling, and secure access mechanisms (IAM roles, encryption).</li>
+                            <li>Delivered a fully automated ETL pipeline capable of handling high-volume data ingestion with minimal manual intervention.</li>
+                            <li>Created reusable, modular framework for ETL and cluster management, facilitating future projects and team collaboration.</li>
+                            <li>Ensured enterprise-grade security and data integrity using IAM, encryption, and validation checks.</li>
+                            <li>Demonstrated senior-level engineering skills: architecture design, production reliability, parallel processing optimization, and stakeholder collaboration.</li>
+                            <li>Mentored peers through modular operator and workflow design, establishing best practices for future team adoption.</li>
+                            <li>Enhanced operational efficiency and cluster management through automation, logging, and proactive monitoring.</li>
                         </ul>
 
                         <h3>Technical Stack Summary</h3>
@@ -187,6 +204,7 @@
                             <li>ETL Framework: Python classes, Modular design</li>
                             <li>Security & Credentials: AWS IAM, Encryption (KMS)</li>
                             <li>Version Control: Git, GitHub</li>
+                            <li>Senior Responsibilities Demonstrated: Architecture design, pipeline scalability, operational reliability, technical leadership, mentoring, and best-practice adoption.</li>
                         </ul>
 
                     </div>
@@ -194,8 +212,6 @@
             </section>
         </div>
     </div>
-
-
 
 
     <footer class="padding-50 dark ui-bg-color01" data-animation-origin="top" data-animation-duration="500" data-animation-delay="800" data-animation-distance="50px">
